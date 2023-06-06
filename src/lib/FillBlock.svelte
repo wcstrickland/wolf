@@ -11,8 +11,8 @@
 
 <div style="display:flex;">
   <div style="display:flex; justify-content:flex-start">
-    {title} : 
-    <input type="text" style="margin-left:.5em; width:120px;">
+    {title}: 
+    <input type="text" style="margin-left:.5em; width:140px;">
   </div>
   <div style="display:flex; justify-content:flex-end">
     <input type="checkbox" checked={val >= 1} on:click={() => setVal(1)} />

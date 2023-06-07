@@ -1,11 +1,6 @@
 <script>
-  export let title;
 </script>
 
-<div style="margin-left:33%">
-  {#if title != ""}
-    <h3>{title}</h3>
-  {:else}{/if}
 
   <div style="display:flex;">
     <div style="display:flex;justify-content:flex-start;">
@@ -58,4 +53,3 @@
       One Attribute
     </div>
   </div>
-</div>

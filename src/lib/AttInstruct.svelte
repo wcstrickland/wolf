@@ -1,7 +1,7 @@
 <script>
 </script>
 
-
+<div>
   <div style="display:flex;">
     <div style="display:flex;justify-content:flex-start;">
       <input type="checkbox" checked={true} disabled />
@@ -53,3 +53,4 @@
       One Attribute
     </div>
   </div>
+</div>

@@ -1,5 +1,4 @@
 <script>
-  import { prevent_default } from "svelte/internal";
 
   export let title;
   export let val = 0;

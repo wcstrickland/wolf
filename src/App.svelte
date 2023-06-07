@@ -1,9 +1,6 @@
 <script>
   import Section from "./lib/Section.svelte";
-  import Balanced from "./lib/Balanced.svelte";
-  import AttInstruct from "./lib/AttInstruct.svelte";
-  import Jack from "./lib/Jack.svelte";
-  import Specialist from "./lib/Specialist.svelte";
+  import RollerToggle from "./lib/RollerToggle.svelte";
   import FillBlock from "./lib/FillBlock.svelte";
   import Health from "./lib/Health.svelte";
   import Sanity from "./lib/Sanity.svelte";
@@ -39,12 +36,13 @@
     "Politics",
     "Craft",
   ];
+
 </script>
 
-<main>
-  <div id="pg1" >
+<main class="container">
+  <div id="pg1">
     <div style="display: flex; justify-content:flex-start;">
-      Name:<input type="text" style="margin-left:.5em;" />
+      Name:<input type="text" style="margin-left:.5em;width:200px;"  />
     </div>
     <h4 style="text-decoration: underline;">Attributes</h4>
     <div style="display:flex; justify-content:space-evenly;">
@@ -156,10 +154,15 @@
   <p>Examples:</p>
   <p>A police officer might have a revolver with 6 bullets</p>
   <p>A character may carry a knife</p>
-  <br/>
+  <br />
   <p>Some equipment may behave like a talent</p>
   <p>First Aid Kit : Reduce character injuries by 1 level</p>
-  <p>Amulet of protection : Protect the player from 1 instance of Supernatural harm per day</p>
+  <p>
+    Amulet of protection : Protect the player from 1 instance of Supernatural
+    harm per day
+  </p>
 </main>
+
+<RollerToggle/>
 
 <style></style>

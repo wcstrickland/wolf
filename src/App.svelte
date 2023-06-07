@@ -42,7 +42,7 @@
 </script>
 
 <main>
-  <div id="pg1" style="min-height:100vh; max-height:100vh;">
+  <div id="pg1" >
     <div style="display: flex; justify-content:flex-start;">
       Name:<input type="text" style="margin-left:.5em;" />
     </div>

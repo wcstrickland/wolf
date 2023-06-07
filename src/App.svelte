@@ -37,7 +37,7 @@
     "Medicine",
     "Occult",
     "Politics",
-    "Science",
+    "Craft",
   ];
 </script>
 

@@ -1,7 +1,7 @@
 <script>
-    import Jack from "./Jack.svelte";
-    import Specialist from "./Specialist.svelte";
-    import Balanced from "./Balanced.svelte";
+  import Jack from "./Jack.svelte";
+  import Specialist from "./Specialist.svelte";
+  import Balanced from "./Balanced.svelte";
 </script>
 
 <h2>SKILLS</h2>
@@ -48,7 +48,7 @@
   <h3><b>Mental</b> Skills often represent knowledge from formal education.</h3>
   <ul style="text-align:start">
     <li>Academics - knowledge in Arts and Humanities</li>
-    <li>Tech - computer programs and operating systems</li>
+    <li>Tech - computers, electronics, engines, and machinery</li>
     <li>Craft - constructing, crafting, and repairing objects</li>
     <li>Investigation - solving riddles and finding evidence</li>
     <li>Medicine - physiology, anatomy, and medical treatments</li>
@@ -59,4 +59,3 @@
     </li>
   </ul>
 </li>
-

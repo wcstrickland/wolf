@@ -177,7 +177,8 @@
   <b>This combat system is dramatic, abrupt, and lethal</b>
   <p>Talents and Equipment may mitigate or amplify the intensity of combat depending on the setting and theme of the game.</p>
 </main>
-
+<div style="display:flex;justify-content:end; position:sticky; bottom:10px;">
 <RollerToggle />
+</div>
 
 <style></style>

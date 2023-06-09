@@ -12,8 +12,6 @@
 
 <style>
   .Roll-btn-container {
-    position: sticky;
-    bottom: 20px;
     display: flex;
     flex-direction: column-reverse;
     justify-content: start;

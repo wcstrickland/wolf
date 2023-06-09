@@ -14,7 +14,8 @@ function roll(numDice){
         let roll = between(1,6)
         array.push(roll)
     }
-    output = array.join(" - ")
+    // output = array.join(" - ")
+    output = array
 }
 </script>
 

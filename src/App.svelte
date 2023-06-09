@@ -38,7 +38,7 @@
   ];
 </script>
 
-<main class="container">
+<main >
   <div id="pg1">
     <div style="display: flex; justify-content:flex-start;">
       Name:<input type="text" style="margin-left:.5em;width:200px;" />
@@ -177,7 +177,8 @@
   <b>This combat system is dramatic, abrupt, and lethal</b>
   <p>Talents and Equipment may mitigate or amplify the intensity of combat depending on the setting and theme of the game.</p>
 </main>
-<div style="display:flex;justify-content:end; position:sticky; bottom:10px;">
+<!-- <div style="display:flex;justify-content:end; position:sticky; bottom:10px;"> -->
+<div style="position:fixed;bottom:20px;right:20px;">
 <RollerToggle />
 </div>
 

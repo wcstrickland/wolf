@@ -21,13 +21,13 @@
   <li>Athletics - feats of strength and movement</li>
   <li>Brawl - unarmed combat</li>
   <li>Agility - Deft movement. Dodge, duck, dip, dive and dodge.</li>
-  <li>Ranged - identifying, using, and maintaining shooting weapons.</li>
+  <li>Ranged - The familiarity and use of weapons such as bows, guns, slingshots etc.</li>
   <li>
     Larceny - picking locks, burglary, bypassing security, sleight of hand, etc
   </li>
   <li>Stealth - moving silently and unnoticed</li>
   <li>Survival - enduring harsh environments</li>
-  <li>Melee - identifying, using, and maintaining non-firearm weapons</li>
+  <li>Melee - the familiarity with weapons such as knives, swords, or clubs</li>
 </ul>
 <li>
   <h3>

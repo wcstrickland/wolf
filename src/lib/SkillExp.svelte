@@ -20,7 +20,7 @@
 <ul style="text-align:start">
   <li>Athletics - feats of strength and movement</li>
   <li>Brawl - unarmed combat</li>
-  <li>Vehicle - operating automobiles under rough conditions</li>
+  <li>Agility - Deft movement. Dodge, duck, dip, dive and dodge.</li>
   <li>Ranged - identifying, using, and maintaining shooting weapons.</li>
   <li>
     Larceny - picking locks, burglary, bypassing security, sleight of hand, etc

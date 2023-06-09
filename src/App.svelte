@@ -9,7 +9,7 @@
   let phySkills = [
     "Athletics",
     "Brawl",
-    "Vehicle",
+    "Agility",
     "Ranged",
     "Larceny",
     "Stealth",
@@ -36,13 +36,12 @@
     "Politics",
     "Craft",
   ];
-
 </script>
 
 <main class="container">
   <div id="pg1">
     <div style="display: flex; justify-content:flex-start;">
-      Name:<input type="text" style="margin-left:.5em;width:200px;"  />
+      Name:<input type="text" style="margin-left:.5em;width:200px;" />
     </div>
     <h4 style="text-decoration: underline;">Attributes</h4>
     <div style="display:flex; justify-content:space-evenly;">
@@ -161,8 +160,24 @@
     Amulet of protection : Protect the player from 1 instance of Supernatural
     harm per day
   </p>
+  <hr />
+  <h2>I choose Violence. How do I fight?</h2>
+  <p>You decide to attack a character.</p>
+  <p>Roll the appropriate combination of Attribute and Skill for the type of attack. E.g. "Strength" + "Brawl", "Dexterity" + "Melee", "Wits" + "Ranged"</p>
+  <p>Your opponent will choose a response such as "Agility" + "Dexterity" to dodge or "Strength" + "Melee" to fight back</p>
+  <p>For every <b>Success</b> you each deal a point of damage.</p>
+  <p>If a character took a defensive action such as "Agility" + "Dexterity" to dodge they do not deal damage but instead mitigate incoming damage 1 for 1</p>
+  <p>Each character rolls "Stamina" and reduces incoming damage by that many <b>Successes</b></p>
+  <p></p>
+  <br/>
+  <br/>
+  <p>4 damage from a fist could be thought of 4 instances of "Hurt" escalating to 2 instances of "Injured" escalating to "Wounded"</p>
+  <p>Damage from a sword would likely be "Injuring" or "Wounding" and 3 of that type of damage could very well kill someone. These judgments are made by the GM.</p>
+  <p>Damage type and severity is specifically not precise like a hit point system. This is not a combat simulator.</p>
+  <b>This combat system is dramatic, abrupt, and lethal</b>
+  <p>Talents and Equipment may mitigate or amplify the intensity of combat depending on the setting and theme of the game.</p>
 </main>
 
-<RollerToggle/>
+<RollerToggle />
 
 <style></style>

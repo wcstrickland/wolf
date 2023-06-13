@@ -2,55 +2,68 @@
 </script>
 
 <div>
-  <div style="display:flex;">
-    <div style="display:flex;justify-content:flex-start;">
+  <div class="flex">
+    <div class="flex start">
       <input type="checkbox" checked={true} disabled />
       <input type="checkbox" checked={true} disabled />
       <input type="checkbox" checked={true} disabled />
       <input type="checkbox" checked={true} disabled />
       <input type="checkbox" disabled />
-      <div style="display:flex;justify-content:flex-end;margin-left:1em;">
+      <div class="flex end" style="margin-left:1em;">
         One Attribute
       </div>
     </div>
   </div>
 
-  <div style="display:flex;">
-    <div style="display:flex;justify-content:flex-start;">
+  <div class="flex">
+    <div class="flex start">
       <input type="checkbox" checked={true} disabled />
       <input type="checkbox" checked={true} disabled />
       <input type="checkbox" checked={true} disabled />
       <input type="checkbox" disabled />
       <input type="checkbox" disabled />
-      <div style="display:flex;justify-content:flex-end;margin-left:1em;">
+      <div class="flex end" style="margin-left:1em;">
         Three Attributes
       </div>
     </div>
   </div>
 
-  <div style="display:flex;">
-    <div style="display:flex;justify-content:flex-start;">
+  <div class="flex">
+    <div class="flex start">
       <input type="checkbox" checked={true} disabled />
       <input type="checkbox" checked={true} disabled />
       <input type="checkbox" disabled />
       <input type="checkbox" disabled />
       <input type="checkbox" disabled />
-      <div style="display:flex;justify-content:flex-end;margin-left:1em;">
+      <div class="flex end" style="margin-left:1em;">
         Four Attributes
       </div>
     </div>
   </div>
 
-  <div style="display:flex;">
-    <div style="display:flex;justify-content:flex-start;">
+  <div class="flex">
+    <div class="flex start">
       <input type="checkbox" checked={true} disabled />
       <input type="checkbox" disabled />
       <input type="checkbox" disabled />
       <input type="checkbox" disabled />
       <input type="checkbox" disabled />
     </div>
-    <div style="display:flex;justify-content:flex-end;margin-left:1em;">
+    <div class="flex end"style="margin-left:1em;">
       One Attribute
     </div>
   </div>
 </div>
+
+
+<style>
+  .flex{
+    display: flex;
+  }
+  .end{
+    justify-content: end;
+  }
+  .start{
+    justify-content: start;
+  }
+</style>

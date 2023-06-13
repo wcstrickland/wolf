@@ -5,10 +5,12 @@
 <!-- <input type="text" value={result} disabled style="height:30px;"> -->
 <div id="result-box">
   {#each result as res}
-    {#if res >= 4}
+    {#if res > 4}
       <span style="color:green">{res}</span>
-    {:else}
+    {:else if res < 4}
       <span style="color:brown">{res}</span>
+    {:else}
+      <span style="color:white">{res}</span>
     {/if}
   {/each}
 </div>

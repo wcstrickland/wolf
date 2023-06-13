@@ -4,6 +4,7 @@
   export let val = 0;
   function setVal(vl) {
     val = vl;
+    console.log(val>=1)
   }
 </script>
 
@@ -12,7 +13,7 @@
     {title}
   </div>
   <div style="display:flex; justify-content:flex-end">
-    <input type="checkbox" checked={val >= 1} on:click={() => setVal(1)} />
+    <input type="checkbox" checked= {val >= 1} on:click={() => setVal(1)} />
     <input type="checkbox" checked={val >= 2} on:click={() => setVal(2)} />
     <input type="checkbox" checked={val >= 3} on:click={() => setVal(3)} />
     <input type="checkbox" checked={val >= 4} on:click={() => setVal(4)} />

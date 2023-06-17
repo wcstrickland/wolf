@@ -93,8 +93,8 @@
     Actions are made with a combination of an <b>Attribute</b> and a
     <b>Skill</b>.
   </p>
-  <p>e.g. Dexterity + Larceny to pick a lock.</p>
-  <p>A character with a 3 in Dexterity and 2 in Larceny would roll 5 dice</p>
+  <p>e.g. <b>Dexterity</b> + <b>Larceny</b> to pick a lock.</p>
+  <p>A character with a 3 in <b>Dexterity</b> and 2 in <b>Larceny</b> would roll 5 dice</p>
   <p>
     4, 5, 6's are considered <b>Successes</b>. The GM will tell you how many
     <b>Successes</b>
@@ -104,7 +104,7 @@
   <hr />
   <h2>Virtue & Vice</h2>
   <p>
-    Virtue and Vice represent your characters defining positive and negative
+    <b>Virtue</b> and <b>Vice</b> represent your characters defining positive and negative
     traits. e.g. Patience and Jealousy
   </p>
   <p>
@@ -115,20 +115,19 @@
   <h2>Health: Physical & Mental</h2>
   <p>
     Certain types of interactions will cause certain types of damage. e.g. A
-    punch might "hurt" while a lead pipe may "injure"
+    punch might <b>Hurt</b> while a lead pipe may <b>Injure</b>
   </p>
   <p>
     Repeated damage of a certain type will escalate. e.g. A character was
-    attacked with a pipe earlier and is "injured". Later a chair is broken over
-    them in a fight - the cumulative injuries escalate to "wounded"
+    attacked with a pipe earlier and is <b>injured</b>. Later a chair is broken over
+    them in a fight - the cumulative injuries escalate to <b>wounded</b>
   </p>
   <p>
     Mental health degrades due to stressful situations such as seeing someone
     die.
   </p>
   <p>
-    Health degradation causes penalties to rolls starting at "Injured/Anxious"
-    -1
+    Health degradation causes penalties to rolls starting at <b>Injured / Anxious : - 1</b>
   </p>
   <hr />
   <h2>Talents</h2>
@@ -167,31 +166,29 @@
   <p>You decide to attack a character.</p>
   <p>
     Roll the appropriate combination of Attribute and Skill for the type of
-    attack. E.g. "Strength" + "Brawl", "Dexterity" + "Melee", "Wits" + "Ranged"
+    attack. E.g. <b>Strength + Brawl</b> , <b>Dexterity + Melee</b> ,  <b>Wits + Ranged</b>
   </p>
   <p>
-    Your opponent will choose a response such as "Agility" + "Dexterity" to
-    dodge or "Strength" + "Melee" to fight back
+    Your opponent will choose a response such as <b>Agility + Dexterity</b> to
+    dodge or <b>Strength + Melee</b> to fight back
   </p>
   <p>For every <b>Success</b> you each deal a point of damage.</p>
   <p>
-    If a character took a defensive action such as "Agility" + "Dexterity" to
+    If a character took a defensive action such as <b>Agility + Dexterity</b> to
     dodge they do not deal damage but instead mitigate incoming damage 1 for 1
   </p>
   <p>
-    Each character rolls "Stamina" and reduces incoming damage by that many <b
-      >Successes</b
-    >
+    Each character rolls <b>Stamina</b> to mitigate <b>up to 1</b> damage
   </p>
   <p />
   <br />
   <br />
   <p>
-    4 damage from a fist could be thought of 4 instances of "Hurt" escalating to
-    2 instances of "Injured" escalating to "Wounded"
+    4 damage from a fist could be thought of 4 instances of <b>Hurt</b> escalating to
+    2 instances of <b>Injured</b> escalating to <b>Wounded</b>
   </p>
   <p>
-    Damage from a sword would likely be "Injuring" or "Wounding" and 3 of that
+    Damage from a sword would likely be <b>Injuring</b> or <b>Wounding</b> and 3 of that
     type of damage could very well kill someone. These judgments are made by the
     GM.
   </p>

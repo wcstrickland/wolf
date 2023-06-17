@@ -178,7 +178,7 @@
     dodge they do not deal damage but instead mitigate incoming damage 1 for 1
   </p>
   <p>
-    Each character rolls <b>Stamina</b> to mitigate <b>up to 1</b> damage
+    Each character rolls <b>Stamina</b> to mitigate <b>up to 2</b> damage
   </p>
   <p />
   <br />

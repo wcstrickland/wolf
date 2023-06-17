@@ -175,10 +175,7 @@
   <p>For every <b>Success</b> you each deal a point of damage.</p>
   <p>
     If a character took a defensive action such as <b>Agility + Dexterity</b> to
-    dodge they do not deal damage but instead mitigate incoming damage 1 for 1
-  </p>
-  <p>
-    Each character rolls <b>Stamina</b> to mitigate <b>up to 2</b> damage
+    <b>Dodge</b> or <b>Brawl + Stamina</b> to <b>Soak</b> damage they do not deal damage but instead mitigate incoming damage by 1 for each success.
   </p>
   <p />
   <br />

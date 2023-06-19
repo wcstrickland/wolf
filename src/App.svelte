@@ -48,7 +48,7 @@
     <h4 style="text-decoration: underline;">Attributes</h4>
     <div style="display:flex; justify-content:space-evenly;">
       <Section title="Physical" blocks={["Strength", "Dexterity", "Stamina"]} />
-      <Section title="Social" blocks={["Charm", "Manipulation", "Composure"]} />
+      <Section title="Social" blocks={["Charisma", "Finesse", "Composure"]} />
       <Section title="Mental" blocks={["Intelligence", "Wits", "Resolve"]} />
     </div>
     <hr style="margin-top:1em;margin-bottom:1em;" />

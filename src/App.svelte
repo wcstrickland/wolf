@@ -94,18 +94,24 @@
     <b>Skill</b>.
   </p>
   <p>e.g. <b>Dexterity</b> + <b>Larceny</b> to pick a lock.</p>
-  <p>A character with a 3 in <b>Dexterity</b> and 2 in <b>Larceny</b> would roll 5 dice</p>
   <p>
-    4, 5, 6's are considered <b>Successes</b>. The GM will tell you how many
-    <b>Successes</b>
-    you need to accomplish the task.
+    A character with a 3 in <b>Dexterity</b> and 2 in <b>Larceny</b> would roll 5
+    dice
+  </p>
+  <p>
+    5, 6's are considered <b>Successes</b>. 4's are considered <b>Partial Successes</b> The GM will tell you how many you
+    need to accomplish the task.
+  </p>
+  <p>
+    If you are <b>Untrained</b> (0 points in a skill)
+    only 6's are considered <b>Successes</b> 5's are considered <b>Partial Successes</b>
   </p>
   <p />
   <hr />
   <h2>Virtue & Vice</h2>
   <p>
-    <b>Virtue</b> and <b>Vice</b> represent your characters defining positive and negative
-    traits. e.g. Patience and Jealousy
+    <b>Virtue</b> and <b>Vice</b> represent your characters defining positive and
+    negative traits. e.g. Patience and Jealousy
   </p>
   <p>
     Making choices that exemplify this behavior will reward the player with a
@@ -119,15 +125,17 @@
   </p>
   <p>
     Repeated damage of a certain type will escalate. e.g. A character was
-    attacked with a pipe earlier and is <b>injured</b>. Later a chair is broken over
-    them in a fight - the cumulative injuries escalate to <b>wounded</b>
+    attacked with a pipe earlier and is <b>injured</b>. Later a chair is broken
+    over them in a fight - the cumulative injuries escalate to <b>wounded</b>
   </p>
   <p>
     Mental health degrades due to stressful situations such as seeing someone
     die.
   </p>
   <p>
-    Health degradation causes penalties to rolls starting at <b>Injured / Anxious : - 1</b>
+    Health degradation causes penalties to rolls starting at <b
+      >Injured / Anxious : - 1</b
+    >
   </p>
   <hr />
   <h2>Talents</h2>
@@ -166,7 +174,8 @@
   <p>You decide to attack a character.</p>
   <p>
     Roll the appropriate combination of Attribute and Skill for the type of
-    attack. E.g. <b>Strength + Brawl</b> , <b>Dexterity + Melee</b> ,  <b>Wits + Ranged</b>
+    attack. E.g. <b>Strength + Brawl</b> , <b>Dexterity + Melee</b> ,
+    <b>Wits + Ranged</b>
   </p>
   <p>
     Your opponent will choose a response such as <b>Agility + Dexterity</b> to
@@ -175,19 +184,20 @@
   <p>For every <b>Success</b> you each deal a point of damage.</p>
   <p>
     If a character took a defensive action such as <b>Agility + Dexterity</b> to
-    <b>Dodge</b> or <b>Brawl + Stamina</b> to <b>Soak</b> damage they do not deal damage but instead mitigate incoming damage by 1 for each success.
+    <b>Dodge</b> or <b>Brawl + Stamina</b> to <b>Soak</b> damage they do not deal
+    damage but instead mitigate incoming damage by 1 for each success.
   </p>
   <p />
   <br />
   <br />
   <p>
-    4 damage from a fist could be thought of 4 instances of <b>Hurt</b> escalating to
-    2 instances of <b>Injured</b> escalating to <b>Wounded</b>
+    4 damage from a fist could be thought of 4 instances of <b>Hurt</b>
+    escalating to 2 instances of <b>Injured</b> escalating to <b>Wounded</b>
   </p>
   <p>
-    Damage from a sword would likely be <b>Injuring</b> or <b>Wounding</b> and 3 of that
-    type of damage could very well kill someone. These judgments are made by the
-    GM.
+    Damage from a sword would likely be <b>Injuring</b> or <b>Wounding</b> and 3
+    of that type of damage could very well kill someone. These judgments are made
+    by the GM.
   </p>
   <p>
     Damage type and severity is specifically not precise like a hit point
@@ -207,12 +217,15 @@
 <br />
 <br />
 <br />
-<button style="margin-bottom:3em;" on:click={() => (rollerVisible = !rollerVisible)}>Full Dice Roller</button>
+<button
+  style="margin-bottom:3em;"
+  on:click={() => (rollerVisible = !rollerVisible)}>Full Dice Roller</button
+>
 {#if rollerVisible}
   <Roller />
 {/if}
-<br/>
-<br/>
-<br/>
+<br />
+<br />
+<br />
 
 <style></style>

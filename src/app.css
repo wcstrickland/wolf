@@ -27,8 +27,8 @@ body {
   margin: 0;
   display: flex;
   place-items: center;
-  /* min-width: 320px; */
-  width: 100vw;
+  min-width: 320px;
+  width:100vw;
   min-height: 100vh;
 }
 
@@ -41,10 +41,12 @@ h1 {
   padding: 2em;
 }
 main{
-  max-width: 1280px;
+  /* max-width: 1280px; */
+  max-width:100%;
+  min-width: 100%;
 }
 #app {
-  /* max-width: 1280px; */
+  max-width: 1280px;
   margin-left:  auto;
   margin-right:  auto;
   padding: 1rem;

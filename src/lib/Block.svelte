@@ -6,6 +6,7 @@
   export let val = $formState[title] || 0;
   function setVal(vl) {
     updateFormState(title, vl)
+    val = $formState[title]
   }
 </script>
 

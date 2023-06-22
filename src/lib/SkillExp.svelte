@@ -49,13 +49,11 @@
   <ul style="text-align:start">
     <li>Academics - knowledge in Arts and Humanities</li>
     <li>Tech - computers, electronics, engines, and machinery</li>
-    <li>Craft - constructing, crafting, and repairing objects</li>
+    <li>Finance - understanding of mathematics, money, and financial systems</li>
     <li>Investigation - solving riddles and finding evidence</li>
     <li>Medicine - physiology, anatomy, and medical treatments</li>
     <li>Occult - lore about the supernatural</li>
     <li>Politics - political processes and bureaucratic maneuvers</li>
-    <li>
-      Finance - understanding of mathematics, money, and financial systems
-    </li>
+    <li>Craft - constructing, crafting, and repairing objects</li>
   </ul>
 </li>

@@ -7,9 +7,9 @@
   import SkillExp from "./lib/SkillExp.svelte";
   import AttrExp from "./lib/AttrExp.svelte";
   import Roller from "./lib/Roller.svelte";
-  import { currentPage, setCurrentPage } from "./lib/stores";
   import Virtues from "./lib/Virtues.svelte";
   import Vices from "./lib/Vices.svelte";
+  import { currentPage, setCurrentPage, formState } from "./lib/stores";
 
   let phySkills = [
     "Athletics",
@@ -42,13 +42,28 @@
     "Craft",
   ];
   let rollerVisible = false;
+
+  // bind the formState store and local storage
+  formState.subscribe((value) => (localStorage.form = JSON.stringify(value)));
 </script>
 
 <main>
   {#if $currentPage === "home"}
     <div id="pg1">
-      <div style="display: flex; justify-content:flex-start;">
-        Name:<input type="text" style="margin-left:.5em;width:200px;" />
+      <div style="display: flex; justify-content:space-between;">
+        <div>
+          Name:<input
+            type="text"
+            style="margin-left:.5em;width:200px;"
+            bind:value={$formState.name}
+          />
+        </div>
+        <button
+          on:click={() => {
+            localStorage.clear();
+            location.reload();
+          }}>Clear</button
+        >
       </div>
       <h4 style="text-decoration: underline;">Attributes</h4>
       <div style="display:flex; justify-content:space-evenly;">
@@ -77,19 +92,23 @@
       <input
         type="text"
         style="width:100%; margin-top:.5em; margin-bottom:.5em;"
+        bind:value={$formState.talent1}
       />
       <input
         type="text"
         style="width:100%; margin-top:.5em; margin-bottom:.5em;"
+        bind:value={$formState.talent2}
       />
       <div style="margin-top:1em;">Equipment</div>
       <input
         type="text"
         style="width:100%; margin-top:.5em; margin-bottom:.5em;"
+        bind:value={$formState.equipment1}
       />
       <input
         type="text"
         style="width:100%; margin-top:.5em; margin-bottom:.5em;"
+        bind:value={$formState.equipment2}
       />
     </div>
     <hr style="margin-top:3em;margin-bottom:1em;" />
@@ -130,10 +149,18 @@
     </p>
     <p>
       examples:
-      <span class="link" on:click={() => setCurrentPage("virtue")} on:keypress={()=> setCurrentPage("virtue")}>
+      <span
+        class="link"
+        on:click={() => setCurrentPage("virtue")}
+        on:keypress={() => setCurrentPage("virtue")}
+      >
         virtues
       </span>
-      <span class="link" on:click={() => setCurrentPage("vice")} on:keypress={()=> setCurrentPage("vice")}>
+      <span
+        class="link"
+        on:click={() => setCurrentPage("vice")}
+        on:keypress={() => setCurrentPage("vice")}
+      >
         vices
       </span>
     </p>
@@ -261,9 +288,9 @@
 </main>
 
 <style>
-  .link{
-    cursor:pointer;
-    color:rgb(137, 137, 202);
-    margin-left:1em;
+  .link {
+    cursor: pointer;
+    color: rgb(137, 137, 202);
+    margin-left: 1em;
   }
 </style>

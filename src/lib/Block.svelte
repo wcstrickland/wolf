@@ -1,10 +1,11 @@
 <script>
+  import { formState, updateFormState } from "./stores";
+
 
   export let title;
-  export let val = 0;
+  export let val = $formState[title] || 0;
   function setVal(vl) {
-    val = vl;
-    console.log(val>=1)
+    updateFormState(title, vl)
   }
 </script>
 

@@ -1,18 +1,23 @@
 
 <script>
-  import { prevent_default } from "svelte/internal";
-
+  import { formState, updateFormState } from "./stores";
   export let title;
-  export let val = 0;
+
+
+  export let val = $formState[title] || 0;
   function setVal(vl) {
-    val = vl;
+    updateFormState(title, vl)
   }
 </script>
 
 <div style="display:flex;">
   <div style="display:flex; justify-content:flex-start">
     {title}: 
-    <input type="text" style="margin-left:.5em; width:140px;">
+    {#if title === "Virtue" }
+      <input type="text" style="margin-left:.5em; width:140px;" bind:value={$formState.virtueWord}>
+      {:else}
+      <input type="text" style="margin-left:.5em; width:140px;" bind:value={$formState.viceWord}>
+    {/if}
   </div>
   <div style="display:flex; justify-content:flex-end">
     <input type="checkbox" checked={val >= 1} on:click={() => setVal(1)} />

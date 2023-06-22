@@ -2,15 +2,14 @@
   export let result;
 </script>
 
-<!-- <input type="text" value={result} disabled style="height:30px;"> -->
 <div id="result-box">
   {#each result as res}
     {#if res > 4}
-      <span style="color:green">{res}</span>
+      <span class="success">{res}</span>
     {:else if res < 4}
-      <span style="color:brown">{res}</span>
+      <span class="failure">{res}</span>
     {:else}
-      <span style="color:white">{res}</span>
+      <span class="partial">{res}</span>
     {/if}
   {/each}
 </div>
@@ -25,8 +24,37 @@
     font-size: 1em;
     font-weight: 500;
     font-family: inherit;
-    background-color: #282c34;
+    background-color: #292929;
     cursor: pointer;
     transition: border-color 0.25s;
+  }
+
+  .success {
+    color: green;
+  }
+
+  .failure {
+    color: brown;
+  }
+
+  .partial {
+    color: white;
+  }
+
+  @media (prefers-color-scheme: light) {
+    #result-box {
+      background-color: rgb(238, 238, 238);
+    }
+    .success {
+      color: rgb(17, 218, 17);
+    }
+
+    .failure {
+      color: rgb(248, 2, 2);
+    }
+
+    .partial {
+      color: rgb(39, 39, 39);
+    }
   }
 </style>

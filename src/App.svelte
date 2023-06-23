@@ -290,7 +290,14 @@
 <style>
   .link {
     cursor: pointer;
-    color: rgb(137, 137, 202);
+    color: rgb(63, 63, 206);
     margin-left: 1em;
   }
+@media (prefers-color-scheme: light) {
+  .link{
+    cursor: pointer;
+    color:rgb(23, 23, 61);
+    margin-left: 1em;
+  }
+}
 </style>

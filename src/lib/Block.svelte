@@ -5,8 +5,13 @@
   export let title;
   export let val = $formState[title] || 0;
   function setVal(vl) {
-    updateFormState(title, vl)
-    val = $formState[title]
+    if(val === vl){
+      updateFormState(title, vl - 1)
+      val = $formState[title]
+    }else{
+      updateFormState(title, vl)
+      val = $formState[title]
+    }
   }
 </script>
 

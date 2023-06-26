@@ -140,10 +140,11 @@
     </p>
     <p>
       The GM will tell you how many you need to accomplish the task, but here is
-      a rough<span class="link"
+      a rough<button
+        style="margin-left:.5em;"
         on:click={() => (difficultyVisible = !difficultyVisible)}
         on:keypress={() => (difficultyVisible = !difficultyVisible)}
-        >estimate</span
+        >estimate</button
       >.
     </p>
     {#if difficultyVisible}
@@ -163,20 +164,20 @@
     </p>
     <p>
       examples:
-      <span
-        class="link"
+      <button
+        style="margin-left:.5em;"
         on:click={() => setCurrentPage("virtue")}
         on:keypress={() => setCurrentPage("virtue")}
       >
         virtues
-      </span>
-      <span
-        class="link"
+      </button>
+      <button
+        style="margin-left:.5em;"
         on:click={() => setCurrentPage("vice")}
         on:keypress={() => setCurrentPage("vice")}
       >
         vices
-      </span>
+      </button>
     </p>
 
     <hr />
@@ -291,7 +292,7 @@
     .link {
       cursor: pointer;
       color: rgb(20, 20, 190);
-      margin-left: .5em;
+      margin-left: 0.5em;
     }
   }
 </style>

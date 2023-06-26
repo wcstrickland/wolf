@@ -28,7 +28,6 @@
   <li>Modesty- To regulate one’s ego.</li>
 
   <li>Justice- To be guided by truth and a moral sense of right and wrong.</li>
-  The Definitive List of Virtues
 
   <li>Acceptance – To be able to come to terms with what you cannot change.</li>
 

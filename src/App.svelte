@@ -10,6 +10,7 @@
   import Virtues from "./lib/Virtues.svelte";
   import Vices from "./lib/Vices.svelte";
   import { currentPage, setCurrentPage, formState } from "./lib/stores";
+  import Difficulty from "./lib/Difficulty.svelte";
 
   let phySkills = [
     "Athletics",
@@ -41,7 +42,9 @@
     "Politics",
     "Craft",
   ];
+
   let rollerVisible = false;
+  let difficultyVisible = false;
 
   // bind the formState store and local storage
   formState.subscribe((value) => (localStorage.form = JSON.stringify(value)));
@@ -127,8 +130,7 @@
     </p>
     <p>
       <b>5, 6's</b> are considered Successes. <b>4's</b> are considered
-      <b>Partial Successes</b> The GM will tell you how many you need to accomplish
-      the task.
+      <b>Partial Successes</b>
     </p>
     <p>
       If you are <b>Untrained</b> (0 points in a skill) only <b>6's</b> are
@@ -136,6 +138,17 @@
       <b>Successes</b>
       <b>5's</b> are considered <b>Partial Successes</b>
     </p>
+    <p>
+      The GM will tell you how many you need to accomplish the task, but here is
+      a rough<span class="link"
+        on:click={() => (difficultyVisible = !difficultyVisible)}
+        on:keypress={() => (difficultyVisible = !difficultyVisible)}
+        >estimate</span
+      >.
+    </p>
+    {#if difficultyVisible}
+      <Difficulty />
+    {/if}
     <p />
     <hr />
     <h2>Virtue & Vice</h2>
@@ -278,7 +291,7 @@
     .link {
       cursor: pointer;
       color: rgb(20, 20, 190);
-      margin-left: 1em;
+      margin-left: .5em;
     }
   }
 </style>

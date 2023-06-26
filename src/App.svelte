@@ -76,13 +76,13 @@
           }}>Clear</button
         >
       </div>
-      <h4
+      <button
         on:click={() => (attrVisible = !attrVisible)}
         on:keypress={() => (attrVisible = !attrVisible)}
-        style="text-decoration: underline;cursor:pointer;"
+        style="margin-bottom:1em;text-decoration:underline;"
       >
         Attributes
-      </h4>
+      </button>
       {#if attrVisible}
         <div
           style="display:flex; flex-direction:column; justify-content:center; align-items:center; margin-bottom:1em;"
@@ -99,13 +99,13 @@
         <Section title="Mental" blocks={["Intelligence", "Wits", "Resolve"]} />
       </div>
       <hr style="margin-top:1em;margin-bottom:1em;" />
-      <h4
+      <button
         on:click={() => (skillVisible = !skillVisible)}
         on:keypress={() => (skillVisible = !skillVisible)}
-        style="text-decoration: underline;cursor:pointer;"
+        style="margin-bottom:1em;text-decoration:underline;"
       >
         Skills
-      </h4>
+      </button>
       {#if skillVisible}
         <div>
           <div>Choose a Distribution</div>

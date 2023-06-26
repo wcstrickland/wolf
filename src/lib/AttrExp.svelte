@@ -13,7 +13,7 @@ Choose a Distribution
     <h3>Physical</h3>
     <span><b>Strength</b> - Raw Power</span>
     <span><b>Dexterity</b> - Nimbleness & Accuracy</span>
-    <span><b>Stamina</b> - Physical Resistance to Harm</span>
+    <span><b>Stamina</b> - Endurance & Resistance to Harm</span>
   </div>
 
   <div style="display:flex; flex-direction:column;">

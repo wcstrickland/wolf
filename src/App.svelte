@@ -1,4 +1,6 @@
 <script>
+  // @ts-nocheck
+
   import Section from "./lib/Section.svelte";
   import RollerToggle from "./lib/RollerToggle.svelte";
   import FillBlock from "./lib/FillBlock.svelte";
@@ -11,6 +13,10 @@
   import Vices from "./lib/Vices.svelte";
   import { currentPage, setCurrentPage, formState } from "./lib/stores";
   import Difficulty from "./lib/Difficulty.svelte";
+  import Jack from "./lib/Jack.svelte";
+  import Balanced from "./lib/Balanced.svelte";
+  import Specialist from "./lib/Specialist.svelte";
+  import AttInstruct from "./lib/AttInstruct.svelte";
 
   let phySkills = [
     "Athletics",
@@ -45,6 +51,8 @@
 
   let rollerVisible = false;
   let difficultyVisible = false;
+  let attrVisible = false;
+  let skillVisible = false;
 
   // bind the formState store and local storage
   formState.subscribe((value) => (localStorage.form = JSON.stringify(value)));
@@ -68,7 +76,20 @@
           }}>Clear</button
         >
       </div>
-      <h4 style="text-decoration: underline;">Attributes</h4>
+      <h4
+        on:click={() => (attrVisible = !attrVisible)}
+        on:keypress={() => (attrVisible = !attrVisible)}
+        style="text-decoration: underline;cursor:pointer;"
+      >
+        Attributes
+      </h4>
+      {#if attrVisible}
+        <div
+          style="display:flex; flex-direction:column; justify-content:center; align-items:center; margin-bottom:1em;"
+        >
+          <AttInstruct />
+        </div>
+      {/if}
       <div style="display:flex; justify-content:space-evenly;">
         <Section
           title="Physical"
@@ -78,7 +99,23 @@
         <Section title="Mental" blocks={["Intelligence", "Wits", "Resolve"]} />
       </div>
       <hr style="margin-top:1em;margin-bottom:1em;" />
-      <h4 style="text-decoration: underline;">Skills</h4>
+      <h4
+        on:click={() => (skillVisible = !skillVisible)}
+        on:keypress={() => (skillVisible = !skillVisible)}
+        style="text-decoration: underline;cursor:pointer;"
+      >
+        Skills
+      </h4>
+      {#if skillVisible}
+        <div>
+          <div>Choose a Distribution</div>
+          <div style="display:flex; justify-content:space-evenly;">
+            <Jack />
+            <Balanced />
+            <Specialist />
+          </div>
+        </div>
+      {/if}
       <div style="display:flex; justify-content:space-evenly;">
         <Section title="" blocks={phySkills} />
         <Section title="" blocks={socSkills} />

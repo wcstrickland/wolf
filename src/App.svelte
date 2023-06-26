@@ -196,8 +196,7 @@
       following talent :
     </p>
     <p>
-      Seance: Using a Resolve + Occult you gain information
-      from the other side.
+      Seance: Using a Resolve + Occult you gain information from the other side.
     </p>
     <hr />
     <h2>Equipment</h2>
@@ -249,18 +248,16 @@
     <div style="position:fixed;bottom:20px;right:20px;">
       <RollerToggle />
     </div>
-    <br />
-    <br />
-    <br />
-    <br />
     {#if rollerVisible}
       <Roller />
     {/if}
     <br />
     <button
       style="margin-bottom:3em;"
-      on:click={() => (rollerVisible = !rollerVisible)}>Full Dice Roller</button
-    >
+      on:click={() => (rollerVisible = !rollerVisible)}
+      >Full Dice Roller
+    </button>
+    <br />
     <br />
   {/if}
   {#if $currentPage === "virtue"}

@@ -280,7 +280,7 @@
   @media (prefers-color-scheme: light) {
     .link {
       cursor: pointer;
-      color: rgb(23, 23, 61);
+      color: rgb(20, 20, 190);
       margin-left: 1em;
     }
   }

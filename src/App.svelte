@@ -253,15 +253,14 @@
     <br />
     <br />
     <br />
-    <button
-      style="margin-bottom:3em;"
-      on:click={() => (rollerVisible = !rollerVisible)}>Full Dice Roller</button
-    >
     {#if rollerVisible}
       <Roller />
     {/if}
     <br />
-    <br />
+    <button
+      style="margin-bottom:3em;"
+      on:click={() => (rollerVisible = !rollerVisible)}>Full Dice Roller</button
+    >
     <br />
   {/if}
   {#if $currentPage === "virtue"}

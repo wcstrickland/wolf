@@ -54,7 +54,7 @@
   }
 </script>
 
-<div style="display: flex;">
+<div style="display: flex; justify-content:space-evenly;max-width: 1200px;">
   <button
     on:contextmenu={(e) => decrement(4, e)}
     on:click={() => increment(4)}
@@ -105,7 +105,7 @@
 
 <style>
   .diceButton {
-    width: 100px;
+    width: 70px;
     margin-left: 1em;
   }
 </style>

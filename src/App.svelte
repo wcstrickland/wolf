@@ -115,7 +115,7 @@
     <AttrExp />
     <SkillExp />
     <hr />
-    <h2>How do I do things?</h2>
+    <h2>Actions</h2>
     <p>
       Actions are made with a combination of an <b>Attribute</b> and a
       <b>Skill</b>.
@@ -126,14 +126,15 @@
       5 dice
     </p>
     <p>
-      5, 6's are considered <b>Successes</b>. 4's are considered
+      <b>5, 6's</b> are considered Successes. <b>4's</b> are considered
       <b>Partial Successes</b> The GM will tell you how many you need to accomplish
       the task.
     </p>
     <p>
-      If you are <b>Untrained</b> (0 points in a skill) only 6's are considered
+      If you are <b>Untrained</b> (0 points in a skill) only <b>6's</b> are
+      considered
       <b>Successes</b>
-      5's are considered <b>Partial Successes</b>
+      <b>5's</b> are considered <b>Partial Successes</b>
     </p>
     <p />
     <hr />
@@ -144,8 +145,8 @@
     </p>
     <p>
       Making choices that exemplify this behavior will reward the player with a
-      point that can be spent in a variety of ways such as adding 1 to a die
-      pool.
+      point that can be spent in a variety of ways such as adding 1 die to a
+      roll.
     </p>
     <p>
       examples:
@@ -168,14 +169,8 @@
     <hr />
     <h2>Health: Physical & Mental</h2>
     <p>
-      Certain types of interactions will cause certain types of damage. e.g. A
-      punch might <b>Hurt</b> while a lead pipe may <b>Injure</b>
-    </p>
-    <p>
-      Repeated damage of a certain type will escalate. e.g. A character was
-      attacked with a pipe earlier and is <b>injured</b>. Later a chair is
-      broken over them in a fight - the cumulative injuries escalate to
-      <b>wounded</b>
+      Certain types of interactions will cause certain types of damage. A punch
+      might <b>Hurt</b> while a lead pipe may <b>Injure</b>
     </p>
     <p>
       Mental health degrades due to stressful situations such as seeing someone
@@ -201,31 +196,23 @@
       following talent :
     </p>
     <p>
-      Seance: Using a Social or Mental attribute + Occult you gain information
+      Seance: Using a Resolve + Occult you gain information
       from the other side.
-    </p>
-    <p>
-      Ingredients, location, and knowledge may increase the odds of success.
     </p>
     <hr />
     <h2>Equipment</h2>
-    <p>Equipment represents objects that the character can use</p>
-    <p>Examples:</p>
-    <p>A police officer might have a revolver with 6 bullets</p>
-    <p>A character may carry a knife</p>
-    <br />
+    <p>Equipment represents objects that the character can use.</p>
+    <p><b>Example:</b> A police officer might have a revolver with 6 bullets</p>
     <p>Some equipment may behave like a talent</p>
-    <p>First Aid Kit : Reduce character injuries by 1 level</p>
-    <p>
-      Amulet of protection : Protect the player from 1 instance of Supernatural
-      harm per day
-    </p>
+    <p><b>First Aid Kit :</b> Reduce character injuries by 1 level</p>
     <hr />
-    <h2>I choose Violence. How do I fight?</h2>
-    <p>You decide to attack a character.</p>
+    <h2>Combat</h2>
     <p>
-      Roll the appropriate combination of Attribute and Skill for the type of
-      attack. E.g. <b>Strength + Brawl</b> , <b>Dexterity + Melee</b> ,
+      When attacking: Roll the appropriate combination of Attribute and Skill
+      for the type of attack.
+    </p>
+    <p>
+      <b>Strength + Brawl</b> , <b>Dexterity + Melee</b> ,
       <b>Wits + Ranged</b>
     </p>
     <p>
@@ -241,7 +228,6 @@
     </p>
     <p />
     <br />
-    <br />
     <p>
       4 damage from a fist could be thought of 4 instances of <b>Hurt</b>
       escalating to 2 instances of <b>Injured</b> escalating to <b>Wounded</b>
@@ -251,16 +237,15 @@
       3 of that type of damage could very well kill someone. These judgments are
       made by the GM.
     </p>
-    <p>
-      Damage type and severity is specifically not precise like a hit point
-      system. This is not a combat simulator.
-    </p>
-    <b>This combat system is dramatic, abrupt, and lethal</b>
+    <p><b>This combat system is dramatic, abrupt, and lethal</b></p>
     <p>
       Talents and Equipment may mitigate or amplify the intensity of combat
       depending on the setting and theme of the game.
     </p>
-    <!-- <div style="display:flex;justify-content:end; position:sticky; bottom:10px;"> -->
+    <p>
+      If your game is better suited by a "hit-point" system feel free to
+      substitute.
+    </p>
     <div style="position:fixed;bottom:20px;right:20px;">
       <RollerToggle />
     </div>
@@ -293,11 +278,11 @@
     color: rgb(63, 63, 206);
     margin-left: 1em;
   }
-@media (prefers-color-scheme: light) {
-  .link{
-    cursor: pointer;
-    color:rgb(23, 23, 61);
-    margin-left: 1em;
+  @media (prefers-color-scheme: light) {
+    .link {
+      cursor: pointer;
+      color: rgb(23, 23, 61);
+      margin-left: 1em;
+    }
   }
-}
 </style>

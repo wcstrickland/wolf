@@ -34,7 +34,7 @@
     "Expression",
     "Intimidation",
     "Persuasion",
-    "Socialize",
+    "Etiquette",
     "Streetwise",
     "Subterfuge",
   ];
@@ -235,19 +235,18 @@
     <hr />
     <h2>Talents</h2>
     <p>Talents represent abilities unique to the character</p>
-    <p>Examples:</p>
     <p>Frank the construction worker might have the following talent :</p>
     <p>
-      Tough: All damage is reduced by one magnitude. Things that would "Wound"
+      <b>Tough:</b> All damage is reduced by one magnitude. Things that would "Wound"
       now "Injure" and so on.
     </p>
-    <br />
     <p>
-      Marjaorie studies occult rituals and artifacts. She might have the
-      following talent :
+      Bethany studies occult rituals and artifacts. She might have the following
+      talent :
     </p>
     <p>
-      Seance: Using a Resolve + Occult you gain information from the other side.
+      <b>Seance:</b> Using Resolve + Occult you gain information from the other
+      side.
     </p>
     <hr />
     <h2>Equipment</h2>

@@ -4,7 +4,9 @@
 
 <div id="result-box">
   {#each result as res}
-    {#if res > 4}
+    {#if res === 6}
+      <span class="crit">{res}</span>
+    {:else if res === 5}
       <span class="success">{res}</span>
     {:else if res < 4}
       <span class="failure">{res}</span>
@@ -30,7 +32,10 @@
   }
 
   .success {
-    color: green;
+    color: rgb(0, 192, 0);
+  }
+  .crit {
+    color: rgb(253, 236, 0);
   }
 
   .failure {
@@ -47,6 +52,9 @@
     }
     .success {
       color: rgb(17, 218, 17);
+    }
+    .crit {
+      color: rgb(204, 201, 3);
     }
 
     .failure {

@@ -175,9 +175,9 @@
       <b>Partial Successes</b>
     </p>
     <p>
-      If you are <b>Untrained</b> (0 points in a skill) only <b>6's</b> are
+      If you are <b>Untrained (0 points in a skill)</b> only <b>6's</b> are
       considered
-      <b>Successes</b>
+      <b>Successes</b> and
       <b>5's</b> are considered <b>Partial Successes</b>
     </p>
     <p>
@@ -226,7 +226,7 @@
     <h2>Health: Physical & Mental</h2>
     <p>
       Certain types of interactions will cause certain types of damage. A punch
-      might <b>Hurt</b> while a lead pipe may <b>Injure</b>
+      might <b>Hurt</b> a character while a lead pipe may <b>Injure</b> them.
     </p>
     <p>
       Mental health degrades due to stressful situations such as seeing someone
@@ -239,20 +239,17 @@
     </p>
     <hr />
     <h2>Talents</h2>
-    <p>Talents represent abilities unique to the character</p>
+    <p>Talents represent abilities unique to the character.</p>
     <p>
-      Talents should define and reflect the theme of the game you are creating
+      Talents should define and reflect the theme of the game you are creating.
     </p>
     <p>
       Creating talents should be a collaborative effort between GM and player,
-      ensuring the character concept is realized without breaking game balance
+      ensuring the character concept is realized without breaking game balance.
     </p>
-    <p>Frank the construction worker might have the following talent :</p>
     <p>
-      Work with you GM to create Talents that bring your character to life. Here
-      are some
-    </p>
-    <button on:click={() => setCurrentPage("talents")}>Example Talents</button>
+      Work with you GM to create Talents that bring your character to life. </p>
+    <button style="margin-top:.5em; margin-bottom:.5em;" on:click={() => setCurrentPage("talents")}>Example Talents</button>
     <hr />
     <h2>Equipment</h2>
     <p>Equipment represents objects that the character can use.</p>
@@ -266,16 +263,15 @@
       for the type of attack.
     </p>
     <p>
-      <b>Strength + Brawl</b> , <b>Dexterity + Melee</b> ,
-      <b>Wits + Ranged</b>
+      <b>Strength + Brawl</b> to throw a punch , <b>Dexterity + Melee</b> to stab with a knife ,
+      <b>Wits + Ranged</b> to shoot a gun
     </p>
     <p>
-      Your opponent will choose a response such as <b>Agility + Dexterity</b> to
-      dodge or <b>Strength + Melee</b> to fight back
+      Your opponent will choose a response such as <b>Strength + Melee</b> to fight back
     </p>
     <p>For every <b>Success</b> you each deal a point of damage.</p>
     <p>
-      If a character took a defensive action such as <b>Agility + Dexterity</b>
+      If a character takes a defensive action such as <b>Agility + Dexterity</b>
       to
       <b>Dodge</b> or <b>Brawl + Stamina</b> to <b>Soak</b> damage they do not deal
       damage but instead mitigate incoming damage by 1 for each success.
@@ -283,7 +279,7 @@
     <p />
     <br />
     <p>
-      4 damage from a fist could be thought of 4 instances of <b>Hurt</b>
+      4 damage from a punch could be thought of 4 instances of <b>Hurt</b>
       escalating to 2 instances of <b>Injured</b> escalating to <b>Wounded</b>
     </p>
     <p>

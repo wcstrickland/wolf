@@ -4,11 +4,11 @@
 
 <p>
   Talents can and should vary greatly between types of games. A murder mystery
-  falls apart if one player can read minds, and horror game isn't scary if
+  falls apart if one player can read minds, and a horror game isn't scary if
   everyone is a demi-god.
 </p>
 <p>
-  Beyond adding points to an Attribute or Skill "leveling up" characters through
+  Beyond just adding points to an Attribute or Skill, "leveling up" characters through
   talents re-enforces the narrative. Characters improve in ways that match their
   motivations and experience and their abilities feel like a direct result of
   the story.

@@ -21,9 +21,9 @@
   <li>Athletics - Feats of strength and movement</li>
   <li>Brawl - Unarmed combat</li>
   <li>Agility - Deft movement. Dodge, duck, dip, dive and dodge.</li>
-  <li>Ranged - The familiarity and use of weapons such as bows, guns, slingshots etc.</li>
+  <li>Ranged - The familiarity and use of weapons such as bows, guns</li>
   <li>
-    Larceny - Picking locks, burglary, bypassing security, sleight of hand, etc
+    Larceny - Picking locks, burglary, bypassing security, sleight of hand
   </li>
   <li>Stealth - Moving silently and unnoticed</li>
   <li>Survival - Enduring harsh environments</li>

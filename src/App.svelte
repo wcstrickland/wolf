@@ -154,7 +154,9 @@
       />
     </div>
     <hr style="margin-top:3em;margin-bottom:1em;" />
-    <button on:click={()=>setCurrentPage("characters")}>Character Creation</button>
+    <button on:click={() => setCurrentPage("characters")}
+      >Sample Characters</button
+    >
     <AttrExp />
     <SkillExp />
     <hr />
@@ -180,12 +182,12 @@
     </p>
     <p>
       The GM will tell you how many you need to accomplish the task, but here is
-      a rough<button
+      a rough <button
         style="margin-left:.5em;"
         on:click={() => (difficultyVisible = !difficultyVisible)}
         on:keypress={() => (difficultyVisible = !difficultyVisible)}
         >estimate</button
-      >.
+      >
     </p>
     {#if difficultyVisible}
       <Difficulty />
@@ -238,19 +240,19 @@
     <hr />
     <h2>Talents</h2>
     <p>Talents represent abilities unique to the character</p>
+    <p>
+      Talents should define and reflect the theme of the game you are creating
+    </p>
+    <p>
+      Creating talents should be a collaborative effort between GM and player,
+      ensuring the character concept is realized without breaking game balance
+    </p>
     <p>Frank the construction worker might have the following talent :</p>
     <p>
-      <b>Tough:</b> All damage is reduced by one magnitude. Things that would "Wound"
-      now "Injure" and so on.
+      Work with you GM to create Talents that bring your character to life. Here
+      are some
     </p>
-    <p>
-      Bethany studies occult rituals and artifacts. She might have the following
-      talent :
-    </p>
-    <p>
-      <b>Seance:</b> Using Resolve + Occult you gain information from the other
-      side.
-    </p>
+    <button on:click={() => setCurrentPage("talents")}>Example Talents</button>
     <hr />
     <h2>Equipment</h2>
     <p>Equipment represents objects that the character can use.</p>

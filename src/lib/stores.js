@@ -21,3 +21,10 @@ export function updateFormState(key, val){
         return fs
     })
 }
+
+export function setCharacter(character){
+    for (const key in character) {
+        updateFormState(key, character[key])
+    }
+    setCurrentPage("home")
+}

@@ -17,6 +17,8 @@
   import Balanced from "./lib/Balanced.svelte";
   import Specialist from "./lib/Specialist.svelte";
   import AttInstruct from "./lib/AttInstruct.svelte";
+  import Characters from "./lib/Characters.svelte";
+  import Talents from "./lib/Talents.svelte";
 
   let phySkills = [
     "Athletics",
@@ -152,6 +154,7 @@
       />
     </div>
     <hr style="margin-top:3em;margin-bottom:1em;" />
+    <button on:click={()=>setCurrentPage("characters")}>Character Creation</button>
     <AttrExp />
     <SkillExp />
     <hr />
@@ -316,19 +319,13 @@
   {#if $currentPage === "vice"}
     <Vices />
   {/if}
+  {#if $currentPage === "characters"}
+    <Characters />
+  {/if}
+  {#if $currentPage === "talents"}
+    <Talents />
+  {/if}
 </main>
 
 <style>
-  .link {
-    cursor: pointer;
-    color: rgb(63, 63, 206);
-    margin-left: 1em;
-  }
-  @media (prefers-color-scheme: light) {
-    .link {
-      cursor: pointer;
-      color: rgb(20, 20, 190);
-      margin-left: 0.5em;
-    }
-  }
 </style>

@@ -32,16 +32,58 @@
         "purpose": "maskable"
     },
     {
-        "src": "dice.svg",
+        "src": "dice.ico",
         "sizes": "48x48 72x72 96x96 128x128 256x256 512x512",
-        "type": "image/svg+xml",
-        "purpose": "apple-touch-icon"
+        "type": "image/x-image",
+        "purpose": "maskable"
     },
     {
-        "src": "dice.svg",
+        "src": "dice.ico",
         "sizes": "48x48 72x72 96x96 128x128 256x256 512x512",
-        "type": "image/svg+xml",
-        "purpose": "apple-touch-startup-image"
+        "type": "image/x-image",
+        "purpose": "any"
+    },
+    {
+        "src": "dice.ico",
+        "sizes": "any",
+        "type": "image/x-image",
+        "purpose": "maskable"
+    },
+    {
+        "src": "dice.ico",
+        "sizes": "any",
+        "type": "image/x-image",
+        "purpose": "any"
+    },
+    {
+        "src": "dice_128.icns",
+        "sizes": "128x128",
+        "purpose": "any"
+    },
+    {
+        "src": "dice_256.icns",
+        "sizes": "256x256",
+        "purpose": "any"
+    },
+    {
+        "src": "dice_512.icns",
+        "sizes": "512x512",
+        "purpose": "any"
+    },
+    {
+        "src": "dice_128.icns",
+        "sizes": "128x128",
+        "purpose": "maskable"
+    },
+    {
+        "src": "dice_256.icns",
+        "sizes": "256x256",
+        "purpose": "maskable"
+    },
+    {
+        "src": "dice_512.icns",
+        "sizes": "512x512",
+        "purpose": "maskable"
     }
   ]
 }

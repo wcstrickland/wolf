@@ -8,52 +8,22 @@
   "scope": "https://wcstrickland.github.io/wolf/",
   "icons": [
     {
-        "src": "/assets/dice.svg",
+        "src": "/dice.svg",
         "sizes": "any",
         "type": "image/svg+xml",
         "purpose": "any"
     },
     {
-        "src": "/assets/dice.svg",
+        "src": "/dice.svg",
         "sizes": "48x48 72x72 96x96 128x128 256x256 512x512",
         "type": "image/svg+xml",
         "purpose": "any maskable"
     },
     {
-        "src": "/assets/dice.svg",
-        "sizes": "48x48 72x72 96x96 128x128 256x256 512x512",
-        "type": "image/svg+xml",
-        "purpose": "any"
-    },
-    {
-        "src": "/assets/dice.svg",
-        "sizes": "48x48 72x72 96x96 128x128 256x256 512x512",
-        "type": "image/svg+xml",
-        "purpose": "maskable"
-    },
-    {
-        "src": "/assets/dice.ico",
-        "sizes": "48x48 72x72 96x96 128x128 256x256 512x512",
-        "type": "image/x-image",
-        "purpose": "maskable"
-    },
-    {
-        "src": "/assets/dice.ico",
-        "sizes": "48x48 72x72 96x96 128x128 256x256 512x512",
-        "type": "image/x-image",
-        "purpose": "any"
-    },
-    {
-        "src": "/assets/dice.ico",
+        "src": "/dice.ico",
         "sizes": "any",
         "type": "image/x-image",
-        "purpose": "maskable"
-    },
-    {
-        "src": "/assets/dice.ico",
-        "sizes": "any",
-        "type": "image/x-image",
-        "purpose": "any"
+        "purpose": "any maskable"
     }
   ]
 }

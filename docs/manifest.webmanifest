@@ -54,6 +54,18 @@
         "sizes": "any",
         "type": "image/x-image",
         "purpose": "any"
+    },
+    {
+        "src": "/assets/apple-touch-icon-fafd0bf8.png",
+        "sizes": "any",
+        "type": "image/png",
+        "purpose": "any"
+    },
+    {
+        "src": "/assets/apple-touch-icon-fafd0bf8.png",
+        "sizes": "any",
+        "type": "image/png",
+        "purpose": "maskable"
     }
   ]
 }

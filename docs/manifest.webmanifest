@@ -54,6 +54,11 @@
         "sizes": "any",
         "type": "image/x-image",
         "purpose": "any"
+    },
+    {
+        "src": "/assets/dice_180_bg.png",
+        "sizes": "180x180",
+        "purpose": "any maskable"
     }
   ]
 }

@@ -54,6 +54,48 @@
         "sizes": "any",
         "type": "image/x-image",
         "purpose": "any"
+    },
+    {
+        "src": "apple_touch.png",
+        "sizes": "180x180",
+        "type": "image/png",
+        "purpose": "any maskable"
+    },
+    {
+        "src": "apple_touch_120.png",
+        "sizes": "120x120",
+        "type": "image/png",
+        "purpose": "any maskable"
+    },
+    {
+        "src": "apple_touch_114.png",
+        "sizes": "114x114",
+        "type": "image/png",
+        "purpose": "any maskable"
+    },
+    {
+        "src": "apple_touch_87.png",
+        "sizes": "87x87",
+        "type": "image/png",
+        "purpose": "any maskable"
+    },
+    {
+        "src": "apple_touch_80.png",
+        "sizes": "80x80",
+        "type": "image/png",
+        "purpose": "any maskable"
+    },
+    {
+        "src": "apple_touch_76.png",
+        "sizes": "76x76",
+        "type": "image/png",
+        "purpose": "any maskable"
+    },
+    {
+        "src": "apple_touch_58.png",
+        "sizes": "58x58",
+        "type": "image/png",
+        "purpose": "any maskable"
     }
   ]
 }

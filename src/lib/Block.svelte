@@ -27,3 +27,9 @@
     <input type="checkbox" checked={val >= 5} on:click={() => setVal(5)} />
   </div>
 </div>
+
+<style>
+  *{
+    width:auto;
+  }
+</style>

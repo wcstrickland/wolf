@@ -57,3 +57,9 @@
     <li>Craft - Constructing, crafting, and repairing objects</li>
   </ul>
 </li>
+
+<style>
+  *{
+    width:auto;
+  }
+</style>

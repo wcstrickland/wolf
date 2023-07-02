@@ -58,8 +58,11 @@
 
   // bind the formState store and local storage
   formState.subscribe((value) => (localStorage.form = JSON.stringify(value)));
+  function sleep(ms) {
+    console.log("starting")
+    return new Promise((resolve) => setTimeout(resolve, ms));
+  }
 </script>
-
 <main>
   {#if $currentPage === "home"}
     <div id="pg1">
@@ -247,9 +250,11 @@
       Creating talents should be a collaborative effort between GM and player,
       ensuring the character concept is realized without breaking game balance.
     </p>
-    <p>
-      Work with you GM to create Talents that bring your character to life. </p>
-    <button style="margin-top:.5em; margin-bottom:.5em;" on:click={() => setCurrentPage("talents")}>Example Talents</button>
+    <p>Work with you GM to create Talents that bring your character to life.</p>
+    <button
+      style="margin-top:.5em; margin-bottom:.5em;"
+      on:click={() => setCurrentPage("talents")}>Example Talents</button
+    >
     <hr />
     <h2>Equipment</h2>
     <p>Equipment represents objects that the character can use.</p>
@@ -263,11 +268,13 @@
       for the type of attack.
     </p>
     <p>
-      <b>Strength + Brawl</b> to throw a punch , <b>Dexterity + Melee</b> to stab with a knife ,
+      <b>Strength + Brawl</b> to throw a punch , <b>Dexterity + Melee</b> to
+      stab with a knife ,
       <b>Wits + Ranged</b> to shoot a gun
     </p>
     <p>
-      Your opponent will choose a response such as <b>Strength + Melee</b> to fight back
+      Your opponent will choose a response such as <b>Strength + Melee</b> to fight
+      back
     </p>
     <p>For every <b>Success</b> you each deal a point of damage.</p>
     <p>
@@ -326,4 +333,7 @@
 </main>
 
 <style>
+  *{
+    width:auto;
+  }
 </style>

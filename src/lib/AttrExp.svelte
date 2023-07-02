@@ -32,3 +32,9 @@ Choose a Distribution
 </div>
 
 <hr style="margin-top:2em;margin-bottom:2em;" />
+
+<style>
+  *{
+    width:auto;
+  }
+</style>

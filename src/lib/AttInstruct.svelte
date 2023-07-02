@@ -66,4 +66,7 @@
   .start{
     justify-content: start;
   }
+  *{
+    width:auto;
+  }
 </style>

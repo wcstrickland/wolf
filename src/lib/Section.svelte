@@ -12,3 +12,9 @@
     <Block title={block} />
   {/each}
 </article>
+
+<style>
+  *{
+    width:auto;
+  }
+</style>

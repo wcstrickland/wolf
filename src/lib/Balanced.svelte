@@ -44,3 +44,9 @@
     </div>
   </div>
 </div>
+
+<style>
+  *{
+    width:auto;
+  }
+</style>

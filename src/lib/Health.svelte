@@ -36,3 +36,9 @@
         <input type="checkbox" checked={incapacitated} on:click={()=> toggle("incapacitated")}/>
     </div>
 </div>
+
+<style>
+  *{
+    width:auto;
+  }
+</style>

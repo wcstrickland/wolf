@@ -30,3 +30,10 @@ function roll(numDice){
 <button style="margin-top:1em;" on:click={()=>roll(9)}>9</button>
 
 <RollResult result={output}/>
+
+<style>
+
+  *{
+    width:auto;
+  }
+</style>

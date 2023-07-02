@@ -158,4 +158,7 @@
   .vice-list{
     text-align: start;
   }
+  *{
+    width:auto;
+  }
 </style>

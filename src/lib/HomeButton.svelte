@@ -12,4 +12,7 @@
     bottom: 20px;
     right: 20px;
   }
+  *{
+    width:auto;
+  }
 </style>

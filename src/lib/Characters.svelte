@@ -45,4 +45,7 @@
   .char-list {
     margin-bottom: 0.5em;
   }
+  *{
+    width:auto;
+  }
 </style>

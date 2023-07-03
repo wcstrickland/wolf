@@ -59,10 +59,11 @@
   // bind the formState store and local storage
   formState.subscribe((value) => (localStorage.form = JSON.stringify(value)));
   function sleep(ms) {
-    console.log("starting")
+    console.log("starting");
     return new Promise((resolve) => setTimeout(resolve, ms));
   }
 </script>
+
 <main>
   {#if $currentPage === "home"}
     <div id="pg1">
@@ -228,15 +229,24 @@
     <hr />
     <h2>Health: Physical & Mental</h2>
     <p>
-      Certain types of interactions will cause certain types of damage. A punch
-      might <b>Hurt</b> a character while a lead pipe may <b>Injure</b> them.
+      Physical Health = <b>3 x Stamina + 5</b>
+    </p>
+    <p>
+      Mental Health = <b>3 x Resolve + 5</b>
+    </p>
+    <p>
+      Different types of damage are handled with "Multipliers" determined by the GM.
+    </p>
+    <p>
+      A <b>Punch</b> might deal x.5 damage for each success and <b>Firearm</b> might deal x3 for each success.
     </p>
     <p>
       Mental health degrades due to stressful situations such as seeing someone
       die.
     </p>
     <p>
-      Health degradation causes penalties to rolls starting at <b
+      Your <b>State</b> is determined by what percentage of your <b>Health</b> or <b>Sanity</b> you have and
+       degradation causes penalties to rolls starting at <b
         >Injured / Anxious : - 1</b
       >
     </p>
@@ -260,8 +270,9 @@
     <p>Equipment represents objects that the character can use.</p>
     <p><b>Example:</b> A police officer might have a revolver with 6 bullets</p>
     <p>Some equipment may behave like a talent</p>
-    <p><b>First Aid Kit :</b> Reduce character injuries by 1 level</p>
+    <p><b>First Aid Kit :</b> Restore "X" HP</p>
     <hr />
+
     <h2>Combat</h2>
     <p>
       When attacking: Roll the appropriate combination of Attribute and Skill
@@ -285,24 +296,16 @@
     </p>
     <p />
     <br />
-    <p>
-      4 damage from a punch could be thought of 4 instances of <b>Hurt</b>
-      escalating to 2 instances of <b>Injured</b> escalating to <b>Wounded</b>
-    </p>
-    <p>
-      Damage from a sword would likely be <b>Injuring</b> or <b>Wounding</b> and
-      3 of that type of damage could very well kill someone. These judgments are
-      made by the GM.
-    </p>
+    <p />
     <p><b>This combat system is dramatic, abrupt, and lethal</b></p>
     <p>
       Talents and Equipment may mitigate or amplify the intensity of combat
       depending on the setting and theme of the game.
     </p>
     <p>
-      If your game is better suited by a "hit-point" system feel free to
-      substitute.
+      If you feel HP is too specific for a cinematic style game feel free to just use the "HP States" such as "Wounded"
     </p>
+
     <div style="position:fixed;bottom:20px;right:20px;">
       <RollerToggle />
     </div>
@@ -333,7 +336,7 @@
 </main>
 
 <style>
-  *{
-    width:auto;
+  * {
+    width: auto;
   }
 </style>

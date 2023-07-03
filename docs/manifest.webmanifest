@@ -1,6 +1,6 @@
 {
-  "name": "wolf",
-  "short_name": "wolf",
+  "name": "S.T.I.C.S",
+  "short_name": "S.T.I.C.S",
   "start_url": "https://wcstrickland.github.io/wolf/",
   "display": "standalone",
   "background_color": "#ffffff",
@@ -11,7 +11,13 @@
         "src": "dice.svg",
         "sizes": "any",
         "type": "image/svg+xml",
-        "purpose": "any maskable"
+        "purpose": "any"
+    },
+    {
+        "src": "dice.svg",
+        "sizes": "any",
+        "type": "image/svg+xml",
+        "purpose": "maskable"
     },
     {
         "src": "dice.ico",

@@ -229,10 +229,10 @@
     <hr />
     <h2>Health: Physical & Mental</h2>
     <p>
-      Physical Health = <b>3 x Stamina + 5</b>
+      Physical Health = <b>5 x Stamina + 5</b>
     </p>
     <p>
-      Mental Health = <b>3 x Resolve + 5</b>
+      Mental Health = <b>5 x Resolve + 5</b>
     </p>
     <p>
       Different types of damage are handled with "Multipliers" determined by the GM.

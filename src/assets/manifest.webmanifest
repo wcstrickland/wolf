@@ -1,6 +1,6 @@
 {
-  "name": "wolf",
-  "short_name": "wolf",
+  "name": "Easy Story Telling",
+  "short_name": "E.S.T",
   "start_url": "https://wcstrickland.github.io/wolf/",
   "display": "standalone",
   "background_color": "#ffffff",
@@ -12,6 +12,12 @@
         "sizes": "any",
         "type": "image/svg+xml",
         "purpose": "any maskable"
+    },
+    {
+        "src": "dice.svg",
+        "sizes": "any",
+        "type": "image/svg+xml",
+        "purpose": "maskable"
     },
     {
         "src": "dice.ico",

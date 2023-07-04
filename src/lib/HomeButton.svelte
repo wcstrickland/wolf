@@ -1,9 +1,9 @@
 <script>
-  import { currentPage, setCurrentPage } from "./stores";
+  import { push, pop, replace } from "svelte-spa-router";
 </script>
 
 <div>
-  <button class="home-btn" on:click={() => setCurrentPage("home")}>HOME</button>
+  <button class="home-btn" on:click={() => push('/')}>HOME</button>
 </div>
 
 <style>

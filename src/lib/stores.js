@@ -1,11 +1,6 @@
 import { writable } from 'svelte/store';
+import { push } from 'svelte-spa-router';
 
-export const currentPage = writable("home")
-
-export const setCurrentPage = (pg) => {
-    currentPage.update(p => pg)
-    window.scroll(0, 0)
-}
 
 
 // create a store that initializes to reflect a section of localstorage or empty object
@@ -26,5 +21,5 @@ export function setCharacter(character){
     for (const key in character) {
         updateFormState(key, character[key])
     }
-    setCurrentPage("home")
+    push('/')
 }

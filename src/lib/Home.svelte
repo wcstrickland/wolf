@@ -62,7 +62,7 @@
     <div>
       Name:<input
         type="text"
-        style="margin-left:.5em;width:200px;"
+        style="margin-left:.5em;width:20em;"
         bind:value={$formState.name}
       />
     </div>

@@ -20,9 +20,9 @@
   <div style="display:flex; justify-content:flex-start">
     {title}: 
     {#if title === "Virtue" }
-      <input type="text" style="margin-left:.5em; width:140px;" bind:value={$formState.virtueWord}>
+      <input type="text" style="margin-left:.5em; width:10em;" bind:value={$formState.virtueWord}>
       {:else}
-      <input type="text" style="margin-left:.5em; width:140px;" bind:value={$formState.viceWord}>
+      <input type="text" style="margin-left:.5em; width:10em;" bind:value={$formState.viceWord}>
     {/if}
   </div>
   <div style="display:flex; justify-content:flex-end">

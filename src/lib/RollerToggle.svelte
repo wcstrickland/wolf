@@ -15,6 +15,6 @@
     display: flex;
     flex-direction: column-reverse;
     justify-content: start;
-    width: 200px;
+    width: 10em;
   }
 </style>

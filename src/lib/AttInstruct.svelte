@@ -1,72 +1,47 @@
 <script>
 </script>
 
-<div>
-  <div class="flex">
-    <div class="flex start">
-      <input type="checkbox" checked={true} disabled />
-      <input type="checkbox" checked={true} disabled />
-      <input type="checkbox" checked={true} disabled />
-      <input type="checkbox" checked={true} disabled />
-      <input type="checkbox" disabled />
-      <div class="flex end" style="margin-left:1em;">
-        One Attribute
-      </div>
+<div style="width:15%; min-width:10em;">
+  <div class="flex between">
+    <div>One Attribute</div>
+    <div>
+      <b>4 / 5</b>
     </div>
   </div>
 
-  <div class="flex">
-    <div class="flex start">
-      <input type="checkbox" checked={true} disabled />
-      <input type="checkbox" checked={true} disabled />
-      <input type="checkbox" checked={true} disabled />
-      <input type="checkbox" disabled />
-      <input type="checkbox" disabled />
-      <div class="flex end" style="margin-left:1em;">
-        Three Attributes
-      </div>
+  <div class="flex between">
+    <div>Three Attributes</div>
+    <div>
+      <b>3 / 5</b>
     </div>
   </div>
 
-  <div class="flex">
-    <div class="flex start">
-      <input type="checkbox" checked={true} disabled />
-      <input type="checkbox" checked={true} disabled />
-      <input type="checkbox" disabled />
-      <input type="checkbox" disabled />
-      <input type="checkbox" disabled />
-      <div class="flex end" style="margin-left:1em;">
-        Four Attributes
-      </div>
+  <div class="flex between">
+    <div>Four Attributes</div>
+    <div>
+      <b>2 / 5</b>
     </div>
   </div>
 
-  <div class="flex">
-    <div class="flex start">
-      <input type="checkbox" checked={true} disabled />
-      <input type="checkbox" disabled />
-      <input type="checkbox" disabled />
-      <input type="checkbox" disabled />
-      <input type="checkbox" disabled />
-    </div>
-    <div class="flex end"style="margin-left:1em;">
-      One Attribute
+  <div class="flex between">
+    <div>One Attribute</div>
+    <div>
+      <b>1 / 5</b>
     </div>
   </div>
 </div>
 
-
 <style>
-  .flex{
+  .flex {
     display: flex;
   }
-  .end{
+  .end {
     justify-content: end;
   }
-  .start{
+  .start {
     justify-content: start;
   }
-  *{
-    width:auto;
+  .between {
+    justify-content: space-between;
   }
 </style>

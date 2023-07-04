@@ -101,8 +101,8 @@
     Skills
   </button>
   {#if skillVisible}
-    <div>
-      <div>Choose a Distribution</div>
+    <div style="margin-bottom:1em;">
+      <div style="margin-bottom:1em;">Choose a Distribution</div>
       <div style="display:flex; justify-content:space-evenly;">
         <Jack />
         <Balanced />

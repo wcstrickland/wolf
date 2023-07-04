@@ -48,7 +48,7 @@
   </div>
   <div>
     <div>Sanity</div>
-    <input style="width:10em;" type="number" bind:value={$formState.sanity} />
+    <input style="width:8em;" type="number" bind:value={$formState.sanity} />
   </div>
 </div>
 

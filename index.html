@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en" style="-webkit-text-size-adjust: 100%;">
 
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta charset="UTF-8" />
   <link rel="icon" type="image/svg+xml" href="/dice.svg" />
   <link rel="stylesheet" href="./app.css">
@@ -15,15 +16,24 @@
   <link rel="apple-touch-icon" sizes="58x58" href="apple_touch_58.png" />
   <link rel="apple-touch-startup-image" sizes="180x180" href="dice_180.png" />
 
-<!-- <meta name="viewport" content="width=600"> -->
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- <meta name="viewport" content="width=600"> -->
 
   <title>E.S.T</title>
 </head>
 
-<body >
+<body style="-webkit-text-size-adjust: 100%;">
   <div id="app"></div>
   <script type="module" src="/src/main.js"></script>
 </body>
 
 </html>
+
+<script>
+var viewportMeta = document.querySelector("meta[name=viewport]");
+var initialScale = 1 / window.devicePixelRatio;
+
+viewportMeta.setAttribute("content", "width=device-width, initial-scale=" + initialScale);
+
+console.log("the device pixel ratio is ")
+console.log(window.devicePixelRatio)
+</script>

@@ -50,7 +50,7 @@
   </div>
   <div style="display: flex; flex-direction:column;">
     <div>HP</div>
-    <input style="max-width:8em; min-width:1em;" type="number" bind:value={$formState.hp} />
+    <input style="width:8em;" type="number" bind:value={$formState.hp} />
   </div>
 </div>
 

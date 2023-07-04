@@ -4,17 +4,17 @@
   export let blocks = [];
 </script>
 
-<div class="sect">
+<article style="margin-left:1em;margin-right:1em;">
   {#if title != ""}
     <b>{title}</b>
   {:else}{/if}
   {#each blocks as block}
     <Block title={block} />
   {/each}
-</div>
+</article>
 
 <style>
-  .sect{
-    min-width: 8em;
+  *{
+    width:auto;
   }
 </style>

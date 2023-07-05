@@ -11,6 +11,47 @@
     let curVal = $formState[st];
     updateFormState(st, !curVal);
   }
+
+  function checkHealth() {
+    if ($formState.hp && $formState.Stamina) {
+
+      let max = parseInt($formState.Stamina) * 5 + 5;
+
+      if ($formState.hp <= Math.floor(max / 5) * 4) {
+        hurt = true;
+        updateFormState("hurt", true);
+      } else {
+        hurt = false;
+        updateFormState("hurt", false);
+      }
+
+      if ($formState.hp <= Math.floor(max / 5) * 3) {
+        injured = true;
+        updateFormState("injured", true);
+      } else {
+        injured = false;
+        updateFormState("injured", false);
+      }
+
+      if ($formState.hp <= Math.floor(max / 5) * 2) {
+        wounded = true;
+        updateFormState("wounded", true);
+      } else {
+        wounded = false;
+        updateFormState("wounded", false);
+      }
+
+      if ($formState.hp <= Math.floor(max / 5) * 1) {
+        maimed = true;
+        updateFormState("maimed", true);
+      } else {
+        maimed = false;
+        updateFormState("maimed", false);
+      }
+
+    }
+  }
+
 </script>
 
 <div
@@ -50,7 +91,7 @@
   </div>
   <div style="display: flex; flex-direction:column;">
     <div>HP</div>
-    <input style="width:8em;" type="number" bind:value={$formState.hp} />
+    <input style="width:8em;" type="number" on:change={()=>checkHealth()} bind:value={$formState.hp} />
   </div>
 </div>
 

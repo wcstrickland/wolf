@@ -11,6 +11,53 @@
     let curVal = $formState[st];
     updateFormState(st, !curVal);
   }
+
+  function checkSanity() {
+    if ($formState.sanity && $formState.Resolve) {
+
+      let max = parseInt($formState.Resolve) * 5 + 5;
+
+      if ($formState.sanity <= Math.floor(max / 5) * 4) {
+        nervous = true;
+        updateFormState("nervous", true);
+      } else {
+        nervous = false;
+        updateFormState("nervous", false);
+      }
+
+      if ($formState.sanity <= Math.floor(max / 5) * 3) {
+        anxious = true;
+        updateFormState("anxious", true);
+      } else {
+        anxious = false;
+        updateFormState("anxious", false);
+      }
+
+      if ($formState.sanity <= Math.floor(max / 5) * 2) {
+        panicked = true;
+        updateFormState("panicked", true);
+      } else {
+        panicked = false;
+        updateFormState("panicked", false);
+      }
+
+      if ($formState.sanity <= Math.floor(max / 5) * 1) {
+        crazed = true;
+        updateFormState("crazed", true);
+      } else {
+        crazed = false;
+        updateFormState("crazed", false);
+      }
+
+      if (parseInt($formState.sanity) === 0) {
+        insane = true;
+        updateFormState("insane", true);
+      } else {
+        insane = false;
+        updateFormState("insane", false);
+      }
+    }
+  }
 </script>
 
 <div style="display: flex; justify-content:space-between;margin-top:.5em;">
@@ -48,7 +95,12 @@
   </div>
   <div>
     <div>Sanity</div>
-    <input style="width:8em;" type="number" bind:value={$formState.sanity} />
+    <input
+      style="width:8em;"
+      type="number"
+      on:change={() => checkSanity()}
+      bind:value={$formState.sanity}
+    />
   </div>
 </div>
 

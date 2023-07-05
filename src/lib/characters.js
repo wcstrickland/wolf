@@ -72,6 +72,8 @@ export const characters = {
         "Occult": 0,
         "Politics": 1,
         "Craft": 1,
+        "hp": 20,
+        "sanity": 15
     },
     "healer": {
         "name": "healer",
@@ -108,6 +110,8 @@ export const characters = {
         "Occult": 2,
         "Politics": 0,
         "Craft": 1,
+        "hp": 15,
+        "sanity": 20
     },
     "investigator": {
         "name": "investigator",
@@ -144,6 +148,8 @@ export const characters = {
         "Occult": 0,
         "Politics": 1,
         "Craft": 1,
+        "hp": 10,
+        "sanity": 20
     },
     "scientist": {
         "name": "scientist",
@@ -180,6 +186,8 @@ export const characters = {
         "Occult": 1,
         "Politics": 1,
         "Craft": 2,
+        "hp": 15,
+        "sanity": 20
     },
     "face": {
         "name": "face",
@@ -216,6 +224,8 @@ export const characters = {
         "Occult": 0,
         "Politics": 2,
         "Craft": 1,
+        "hp": 15,
+        "sanity": 15
     },
     "rogue": {
         "name": "rogue",
@@ -252,6 +262,8 @@ export const characters = {
         "Occult": 0,
         "Politics": 0,
         "Craft": 1,
+        "hp": 10,
+        "sanity": 15
     },
     "brawler": {
         "name": "brawler",
@@ -288,6 +300,8 @@ export const characters = {
         "Occult": 0,
         "Politics": 0,
         "Craft": 1,
+        "hp": 20,
+        "sanity": 15
     }
 
 }

@@ -174,10 +174,7 @@
   <b>Partial Successes</b>
 </p>
 <p>
-  If you are <b>Untrained (0 points in a skill)</b> only <b>6's</b> are
-  considered
-  <b>Successes</b> and
-  <b>5's</b> are considered <b>Partial Successes</b>
+  If you are <b>Untrained (0 points in a skill)</b> subtract <b>1</b> from the dice pool.
 </p>
 <p>
   The GM will tell you how many you need to accomplish the task, but here is a

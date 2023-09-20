@@ -19,8 +19,8 @@ Choose a Distribution
   <div style="display:flex; flex-direction:column;">
     <h3>Social</h3>
     <span><b>Charisma</b> - Social Presence</span>
-    <span><b>Finesse</b> - Social Awareness & Control</span>
-    <span><b>Composure</b> - Resistance to Social Pressure</span>
+    <span><b>Finesse</b> - Social Control</span>
+    <span><b>Insight</b> - Social Awareness</span>
   </div>
 
   <div style="display:flex; flex-direction:column;">

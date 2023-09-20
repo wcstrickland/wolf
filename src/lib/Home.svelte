@@ -178,16 +178,25 @@
 </p>
 <p>
   The GM will tell you how many you need to accomplish the task, but here is a
-  rough <button
-    style="margin-left:.5em;"
-    on:click={() => (difficultyVisible = !difficultyVisible)}
-    on:keypress={() => (difficultyVisible = !difficultyVisible)}
-    >estimate</button
-  >
+  rough estimate
 </p>
-{#if difficultyVisible}
-  <Difficulty />
-{/if}
+      <div>Routine: convince a friend to help you</div>
+      <div>1 success</div>
+      <div>Straightforward: seduce someone already in the mood</div>
+      <div>2 success</div>
+      <div>Moderate: walk a tightrope</div>
+      <div>3 success</div>
+      <div>Challenging: locate the source of a whisper</div>
+      <div>4 success</div>
+      <div>Hard: convince a cop it isn't your cocaine</div>
+      <div>5 success</div>
+      <div>Very Hard: run across a tightrope while juggling</div>
+      <div>6 success</div>
+      <div>
+        Improbable: find a specific homeless person in LA during the night
+      </div>
+      <div>7+ success</div>
+
 <p />
 <hr />
 <h2>Virtue & Vice</h2>

@@ -20,7 +20,7 @@ Choose a Distribution
     <h3>Social</h3>
     <span><b>Charisma</b> - Social Presence</span>
     <span><b>Finesse</b> - Social Control</span>
-    <span><b>Insight</b> - Social Awareness</span>
+    <span><b>Intuition</b> - Social Awareness</span>
   </div>
 
   <div style="display:flex; flex-direction:column;">

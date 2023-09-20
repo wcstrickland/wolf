@@ -35,13 +35,13 @@
   </h3>
   <ul style="text-align:start">
     <li>Animal Ken - Understanding animal minds and behaviors</li>
-    <li>Insight - Observing emotions and understanding viewpoints</li>
+    <li>Insight - Detect emotions and truthfulness</li>
     <li>Expression - Art of communication and entertainment</li>
     <li>Intimidation - Coercing via force and threat</li>
     <li>Persuasion - Convincing others and inspiring their emotions</li>
     <li>Etiquette - Manners and refinement</li>
     <li>Streetwise - Navigating urban streets and gathering intel there</li>
-    <li>Subterfuge - Deceiving others and noticing deception</li>
+    <li>Subterfuge - Deceiving others </li>
   </ul>
 </li>
 <li>

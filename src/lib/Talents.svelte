@@ -34,7 +34,7 @@
     and so on.
   </li>
   <li class="tal-list">
-    Flirt: Add 3 dice to positive social rolls such as <b
+    Flirt: Add 3 to positive social rolls such as <b
       >Finesse + Persuasion</b
     > when interacting with the opposite sex.
   </li>
@@ -47,7 +47,7 @@
   </li>
   <li class="tal-list">Infernal: Fire deals reduced damage to you.</li>
   <li class="tal-list">
-    Specialist: For one <b>Skill</b> any <b>Virtue or Vice</b> dice you add to the
+    Specialist: For one <b>Skill</b> any <b>Virtue or Vice</b> points you add to the
     roll are doubled.
   </li>
   <li class="tal-list">
@@ -59,7 +59,7 @@
     or of ill intent.
   </li>
   <li class="tal-list">
-    Master of Disguise: Add 3 dice to any roll related to impersonation of
+    Master of Disguise: Add 3 to any roll related to impersonation of
     another
   </li>
   <li class="tal-list">
@@ -70,16 +70,16 @@
 <h4>Active Talents</h4>
 <ul style="text-align: start;">
   <li class="tal-list">
-    Adrenaline Rush: You gain 3 dice to your next roll. Exhausted you lose that
+    Adrenaline Rush: You gain 3 to your next roll. Exhausted you lose that
     many on your next <b>meaningful</b> roll.
   </li>
   <li class="tal-list">
-    Berserker: You take damage and gain a proportional number of dice for a
+    Berserker: You take damage and gain a proportional increase for a
     roll. Numbers decided by GM
   </li>
   <li class="tal-list">
     Sense Thoughts: You ascertain the thoughts of another. Deeper thoughts are
-    acquired with more <b>Successes</b>. You spend <b>Virtue or Vice</b> for the
+    acquired with higher rolls. You spend <b>Virtue or Vice</b> for the
     roll.
   </li>
   <li class="tal-list">
@@ -92,11 +92,11 @@
     spent <b>Virtue or Vice</b>
   </li>
   <li class="tal-list">
-    Consecrate: You call on divine power to bless items or people. You roll a
+    Consecrate: You call on divine power to bless items or people. You spend a
     number of <b>Virtue</b> dice and the GM interprets the results.
   </li>
   <li class="tal-list">
-    Sense Significance: Roll a number of <b>Virtue or Vice</b> to get a sense of
+    Sense Significance: Spend a number of <b>Virtue or Vice</b> to get a sense of
     the importance, history, or meaning of an object you can touch.
   </li>
 </ul>

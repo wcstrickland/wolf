@@ -156,7 +156,7 @@
   />
 </div>
 <hr style="margin-top:3em;margin-bottom:1em;" />
-<button on:click={() => push('/characters')}>Sample Characters</button>
+<button on:click={() => push("/characters")}>Sample Characters</button>
 <AttrExp />
 <SkillExp />
 <hr />
@@ -167,20 +167,18 @@
 </p>
 <p>e.g. <b>Dexterity</b> + <b>Larceny</b> to pick a lock.</p>
 <p>
-  A character with a 3 in <b>Dexterity</b> and 2 in <b>Larceny</b> would roll 5 dice
+  A character with a 3 in <b>Dexterity</b> and 2 in <b>Larceny</b> would roll a d20
+  and add 5 (3 for dex and 2 for larceny)
 </p>
 <p>
-  <b>5, 6's</b> are considered Successes. <b>4's</b> are considered
-  <b>Partial Successes</b>
+  If you are <b>Untrained (0 points in a skill)</b> roll at disadvantage.
 </p>
 <p>
-  If you are <b>Untrained (0 points in a skill)</b> subtract <b>1</b> from the dice pool.
+  The GM will tell you how many you need to accomplish the task.
+  <!-- The GM will tell you how many you need to accomplish the task, but here is a
+  rough estimate -->
 </p>
-<p>
-  The GM will tell you how many you need to accomplish the task, but here is a
-  rough estimate
-</p>
-      <div>Routine: convince a friend to help you</div>
+<!-- <div>Routine: convince a friend to help you</div>
       <div>1 success</div>
       <div>Straightforward: seduce someone already in the mood</div>
       <div>2 success</div>
@@ -195,7 +193,7 @@
       <div>
         Improbable: find a specific homeless person in LA during the night
       </div>
-      <div>7+ success</div>
+      <div>7+ success</div> -->
 
 <p />
 <hr />
@@ -210,16 +208,10 @@
 </p>
 <p>
   examples:
-  <button
-    style="margin-left:.5em;"
-    on:click={() => push('/virtues')}
-  >
+  <button style="margin-left:.5em;" on:click={() => push("/virtues")}>
     virtues
   </button>
-  <button
-    style="margin-left:.5em;"
-    on:click={() => push('/vices')}
-  >
+  <button style="margin-left:.5em;" on:click={() => push("/vices")}>
     vices
   </button>
 </p>
@@ -231,13 +223,6 @@
 </p>
 <p>
   Mental Health = <b>5 x Resolve + 5</b>
-</p>
-<p>
-  Different types of damage are handled with "Multipliers" determined by the GM.
-</p>
-<p>
-  A <b>Punch</b> might deal x.5 damage for each success and <b>Firearm</b> might
-  deal x3 for each success.
 </p>
 <p>
   Mental health degrades due to stressful situations such as seeing someone die.
@@ -259,7 +244,7 @@
 <p>Work with you GM to create Talents that bring your character to life.</p>
 <button
   style="margin-top:.5em; margin-bottom:.5em;"
-  on:click={() => push('/talents')}>Example Talents</button
+  on:click={() => push("/talents")}>Example Talents</button
 >
 <hr />
 <h2>Equipment</h2>
@@ -271,6 +256,12 @@
 
 <h2>Combat</h2>
 <p>
+  Different types of damage are handled with "Multipliers" determined by the GM.
+</p>
+<p>
+  A <b>Punch</b> might deal x.5 damage and a <b>Firearm</b> might deal x3 .
+</p>
+<p>
   When attacking: Roll the appropriate combination of Attribute and Skill for
   the type of attack.
 </p>
@@ -279,19 +270,20 @@
   with a knife ,
   <b>Wits + Ranged</b> to shoot a gun
 </p>
-<p>
+<!-- <p>
   Your opponent will choose a response such as <b>Strength + Melee</b> to fight back
 </p>
-<p>For every <b>Success</b> you each deal a point of damage.</p>
+<p>For every <b>Success</b> you each deal a point of damage.</p> -->
 <p>
-  If a character takes a defensive action such as <b>Agility + Dexterity</b>
-  to
-  <b>Dodge</b> or <b>Brawl + Stamina</b> to <b>Soak</b> damage they do not deal damage
-  but instead mitigate incoming damage by 1 for each success.
+  <!-- If a character takes a defensive action such as <b>Agility + Dexterity</b>
+  to <b>Dodge</b> or <b>Brawl + Stamina</b> to <b>Soak</b> damage they do not deal damage
+  but instead mitigate incoming damage by 1 for each success. -->
+  The attacked character defends with a combination such as
+  <b>Agility + Dexterity</b>
+  to <b>Dodge</b> or <b>Brawl + Stamina</b> to <b>Soak</b> damage.
 </p>
-<p />
+<p>The damage done is the difference between the 2 rolls multiplied by the damage type.</p>
 <br />
-<p />
 <p><b>This combat system is dramatic, abrupt, and lethal</b></p>
 <p>
   Talents and Equipment may mitigate or amplify the intensity of combat
@@ -302,7 +294,7 @@
   use the "HP States" such as "Wounded"
 </p>
 
-<div style="position:fixed;bottom:20px;right:20px;">
+<!-- <div style="position:fixed;bottom:20px;right:20px;">
   <RollerToggle />
 </div>
 {#if rollerVisible}
@@ -313,7 +305,7 @@
   style="margin-bottom:3em;"
   on:click={() => (rollerVisible = !rollerVisible)}
   >Full Dice Roller
-</button>
+</button> -->
 <br />
 <br />
 

@@ -255,14 +255,14 @@
 <hr />
 
 <h2>Combat</h2>
-<p>Different types of damage are represented by different damage dice as <b>interpreted or decided by the GM.</b></p>
+<p>Different types of damage are represented by different damage dice as <b>interpreted or decided by the GM.</b> plus the roll modifiers (DEX + Melee)</p>
 <ul>
  <h4>Examples / Suggested Values</h4> 
   <li>Punch: Flat Strength or Brawl Score</li>
-  <li>Small Weapons (Scissors, thrown Rock,  Brick): <b>1d4</b></li>
-  <li>Medium Weapons (Knife, Sling Shot, Baseball Bat): <b>1d6</b></li>
-  <li>Large Weapons (Machete, Bow and Arrow, Crowbar): <b>1d8</b></li>
-  <li>Lethal Weapons (Pistol : <b>1d10</b>, Rifle: <b>2d8</b>, Shotgun: <b>4/5d4</b>, Grenade: <b>4d6</b>)</li>
+  <li>Small Weapons (Scissors, thrown Rock,  Brick): <b>1d4 + mods</b></li>
+  <li>Medium Weapons (Knife, Sling Shot, Baseball Bat): <b>1d6 + mods</b></li>
+  <li>Large Weapons (Machete, Bow and Arrow, Crowbar): <b>1d8 + mods</b></li>
+  <li>Lethal Weapons (Pistol : <b>1d10</b>, Rifle: <b>2d8</b>, Shotgun: <b>4/5d4</b>, Grenade: <b>4d6</b>) + mods</li>
 </ul>
 <p>
   When attacking: Roll the appropriate combination of Attribute and Skill for

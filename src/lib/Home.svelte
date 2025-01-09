@@ -157,6 +157,10 @@
 </div>
 <hr style="margin-top:3em;margin-bottom:1em;" />
 <button on:click={() => push("/characters")}>Sample Characters</button>
+<div style="margin-top:1em;">
+  <b>0 : Untrained, 1 : Below Average, 2 : Average, 3 : Professional, 4 : Prodigy,
+  5 : Superhuman</b>
+</div>
 <AttrExp />
 <SkillExp />
 <hr />
@@ -173,28 +177,7 @@
 <p>
   If you are <b>Untrained (0 points in a skill)</b> roll at disadvantage.
 </p>
-<p>
-  The GM will tell you how many you need to accomplish the task.
-  <!-- The GM will tell you how many you need to accomplish the task, but here is a
-  rough estimate -->
-</p>
-<!-- <div>Routine: convince a friend to help you</div>
-      <div>1 success</div>
-      <div>Straightforward: seduce someone already in the mood</div>
-      <div>2 success</div>
-      <div>Moderate: walk a tightrope</div>
-      <div>3 success</div>
-      <div>Challenging: locate the source of a whisper</div>
-      <div>4 success</div>
-      <div>Hard: convince a cop it isn't your cocaine</div>
-      <div>5 success</div>
-      <div>Very Hard: run across a tightrope while juggling</div>
-      <div>6 success</div>
-      <div>
-        Improbable: find a specific homeless person in LA during the night
-      </div>
-      <div>7+ success</div> -->
-
+<p></p>
 <p />
 <hr />
 <h2>Virtue & Vice</h2>
@@ -255,14 +238,21 @@
 <hr />
 
 <h2>Combat</h2>
-<p>Different types of damage are represented by different damage dice as <b>interpreted or decided by the GM.</b> plus the roll modifiers (DEX + Melee)</p>
+<p>
+  Different types of damage are represented by different damage dice as <b
+    >interpreted or decided by the GM.</b
+  > plus the roll modifiers (DEX + Melee)
+</p>
 <ul>
- <h4>Examples / Suggested Values</h4> 
+  <h4>Examples / Suggested Values</h4>
   <li>Punch: Flat Strength or Brawl Score</li>
-  <li>Small Weapons (Scissors, thrown Rock,  Brick): <b>1d4 + mods</b></li>
+  <li>Small Weapons (Scissors, thrown Rock, Brick): <b>1d4 + mods</b></li>
   <li>Medium Weapons (Knife, Sling Shot, Baseball Bat): <b>1d6 + mods</b></li>
   <li>Large Weapons (Machete, Bow and Arrow, Crowbar): <b>1d8 + mods</b></li>
-  <li>Lethal Weapons (Pistol : <b>1d10</b>, Rifle: <b>2d8</b>, Shotgun: <b>4/5d4</b>, Grenade: <b>4d6</b>) + mods</li>
+  <li>
+    Lethal Weapons (Pistol : <b>1d10</b>, Rifle: <b>2d8</b>, Shotgun:
+    <b>4/5d4</b>, Grenade: <b>4d6</b>) + mods
+  </li>
 </ul>
 <p>
   When attacking: Roll the appropriate combination of Attribute and Skill for
@@ -278,8 +268,14 @@
   <b>Agility + Dexterity</b>
   to <b>Dodge</b> or <b>Brawl + Stamina</b> to <b>Soak/Avoid</b> damage.
 </p>
-<p>If the attack result is higher than the defense, or no defense is mounted, the damage occurs</p>
-<p>If both players choose to attack damage occurs <b>simultaneously</b> potentially leading to co mortality</p>
+<p>
+  If the attack result is higher than the defense, or no defense is mounted, the
+  damage occurs
+</p>
+<p>
+  If both players choose to attack damage occurs <b>simultaneously</b> potentially
+  leading to co mortality
+</p>
 <br />
 <p><b>This combat system is dramatic, abrupt, and lethal</b></p>
 <p>

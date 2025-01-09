@@ -94,7 +94,7 @@
     <input type="checkbox" checked={insane} on:click={() => toggle("insane")} />
   </div>
   <div>
-    <div>Sanity</div>
+    <div>Stress</div>
     <input
       style="width:8em;"
       type="number"

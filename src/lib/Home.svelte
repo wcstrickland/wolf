@@ -255,12 +255,15 @@
 <hr />
 
 <h2>Combat</h2>
-<p>
-  Different types of damage are handled with "Multipliers" determined by the GM.
-</p>
-<p>
-  A <b>Punch</b> might deal x.5 damage and a <b>Firearm</b> might deal x3 .
-</p>
+<p>Different types of damage are represented by different damage dice as <b>interpreted or decided by the GM.</b></p>
+<ul>
+ <h4>Examples / Suggested Values</h4> 
+  <li>Punch: Flat Strength or Brawl Score</li>
+  <li>Small Weapons (Scissors, thrown Rock,  Brick): <b>1d4</b></li>
+  <li>Medium Weapons (Knife, Sling Shot, Baseball Bat): <b>1d6</b></li>
+  <li>Large Weapons (Machete, Bow and Arrow, Crowbar): <b>1d8</b></li>
+  <li>Lethal Weapons (Pistol : <b>1d10</b>, Rifle: <b>2d8</b>, Shotgun: <b>4/5d4</b>, Grenade: <b>4d6</b>)</li>
+</ul>
 <p>
   When attacking: Roll the appropriate combination of Attribute and Skill for
   the type of attack.
@@ -270,19 +273,13 @@
   with a knife ,
   <b>Wits + Ranged</b> to shoot a gun
 </p>
-<!-- <p>
-  Your opponent will choose a response such as <b>Strength + Melee</b> to fight back
-</p>
-<p>For every <b>Success</b> you each deal a point of damage.</p> -->
 <p>
-  <!-- If a character takes a defensive action such as <b>Agility + Dexterity</b>
-  to <b>Dodge</b> or <b>Brawl + Stamina</b> to <b>Soak</b> damage they do not deal damage
-  but instead mitigate incoming damage by 1 for each success. -->
-  The attacked character defends with a combination such as
+  The attacked character can use their turn to defend with a combination such as
   <b>Agility + Dexterity</b>
-  to <b>Dodge</b> or <b>Brawl + Stamina</b> to <b>Soak</b> damage.
+  to <b>Dodge</b> or <b>Brawl + Stamina</b> to <b>Soak/Avoid</b> damage.
 </p>
-<p>The damage done is the difference between the 2 rolls multiplied by the damage type.</p>
+<p>If the attack result is higher than the defense, or no defense is mounted, the damage occurs</p>
+<p>If both players choose to attack damage occurs <b>simultaneously</b> potentially leading to co mortality</p>
 <br />
 <p><b>This combat system is dramatic, abrupt, and lethal</b></p>
 <p>

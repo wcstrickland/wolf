@@ -156,13 +156,39 @@
   />
 </div>
 <hr style="margin-top:3em;margin-bottom:1em;" />
+<h2>Making a Character</h2>
 <button on:click={() => push("/characters")}>Sample Characters</button>
 <div style="margin-top:1em;">
-  <b>0 : Untrained, 1 : Below Average, 2 : Average, 3 : Professional, 4 : Prodigy,
-  5 : Superhuman</b>
+  <b
+    >0 : Untrained, 1 : Below Average, 2 : Average, 3 : Professional, 4 :
+    Prodigy, 5 : Superhuman</b
+  >
 </div>
 <AttrExp />
 <SkillExp />
+<hr />
+<hr />
+<h1>Playing the Game</h1>
+
+<h2>A Generic System</h2>
+<p>
+  This system is dice agnostic and aims simply to create a rubric for
+  determining a character's ability to perform a task.
+</p>
+<p>The number of points you have in any skill is meant to reflect this.</p>
+<b
+  >0 : Untrained, 1 : Below Average, 2 : Average, 3 : Professional, 4 : Prodigy,
+  5 : Superhuman </b>
+<p>The GM may use d20+mod, dice pool, or a percentile system. The choice of how the characters attributes map to these is up to the GM.</p>
+<h3>Here are some suggestions:</h3>
+  <p>D20: each point is a +1 mod. Untrained rolls at disadvantage. GM determines a target.</p>
+  <p>Each point represents a dice of a dice pool. The type of dice and "target" number allow the GM to fine tune difficulty. e.g. roll d10s and 8 is the target</p>
+  <p>Each point represents 10% with the GM determining that simple checks require a d100 roll of less than your total skill, hard less than 1/2, and extreme less than 1/4 </p>
+  <h3>Guiding Principles</h3>
+  <p>This system favors cinema over simulation.</p>
+  <p>This system favors "degrees of success" or "success at a cost" over a pass / fail binary.</p>
+  <p>If a piece of information or action is critical to progressing the story any attempt should automatically succeed, with the roll determining a "cost" or "complication".</p>
+  <p>Always fail forward.</p>
 <hr />
 <h2>Actions</h2>
 <p>
@@ -171,11 +197,12 @@
 </p>
 <p>e.g. <b>Dexterity</b> + <b>Larceny</b> to pick a lock.</p>
 <p>
-  A character with a 3 in <b>Dexterity</b> and 2 in <b>Larceny</b> would roll a d20
-  and add 5 (3 for dex and 2 for larceny)
+  A character with a 3 in <b>Dexterity</b> and 2 in <b>Larceny</b> add 5 (3 for dex
+  and 2 for larceny)
 </p>
 <p>
-  If you are <b>Untrained (0 points in a skill)</b> roll at disadvantage.
+  If you are <b>Untrained (0 points in a skill)</b> suffer a disadvantage. Such as
+  2d20 take the lowest, a higher target number, or a smaller dice pool.
 </p>
 <p></p>
 <p />
@@ -187,7 +214,8 @@
 </p>
 <p>
   Making choices that exemplify this behavior will reward the player with a
-  point that can be spent in a variety of ways such as adding 1 die to a roll.
+  point that can be spent in a variety of ways such as adding 1 die to a roll or
+  rolling another die.
 </p>
 <p>
   examples:
@@ -212,9 +240,9 @@
 </p>
 <p>
   Your <b>State</b> is determined by what percentage of your <b>Health</b> or
-  <b>Sanity</b>
-  you have and degradation causes penalties to rolls starting at
-  <b>Injured / Anxious : - 1</b>
+  <b>Stress</b>
+  you have and in a gritty setting degradation may causes penalties to rolls starting at a point and
+  intensity determined by the GM.
 </p>
 <hr />
 <h2>Talents</h2>
@@ -239,21 +267,19 @@
 
 <h2>Combat</h2>
 <p>
-  Different types of damage are represented by different damage dice as <b
-    >interpreted or decided by the GM.</b
-  > plus the roll modifiers (DEX + Melee)
+  Different types of damage are represented by different damage dice or
+  modifiers as <b>interpreted or decided by the GM.</b> plus the roll modifiers (DEX
+  + Melee)
 </p>
-<ul>
   <h4>Examples / Suggested Values</h4>
-  <li>Punch: Flat Strength or Brawl Score</li>
-  <li>Small Weapons (Scissors, thrown Rock, Brick): <b>1d4 + mods</b></li>
-  <li>Medium Weapons (Knife, Sling Shot, Baseball Bat): <b>1d6 + mods</b></li>
-  <li>Large Weapons (Machete, Bow and Arrow, Crowbar): <b>1d8 + mods</b></li>
-  <li>
+  <p>Punch: Flat Strength or Brawl Score</p>
+  <p>Small Weapons (Scissors, thrown Rock, Brick): <b>1d4 + mods</b></p>
+  <p>Medium Weapons (Knife, Sling Shot, Baseball Bat): <b>1d6 + mods</b></p>
+  <p>Large Weapons (Machete, Bow and Arrow, Crowbar): <b>1d8 + mods</b></p>
+  <p>
     Lethal Weapons (Pistol : <b>1d10</b>, Rifle: <b>2d8</b>, Shotgun:
     <b>4/5d4</b>, Grenade: <b>4d6</b>) + mods
-  </li>
-</ul>
+  </p>
 <p>
   When attacking: Roll the appropriate combination of Attribute and Skill for
   the type of attack.
@@ -270,14 +296,18 @@
 </p>
 <p>
   If the attack result is higher than the defense, or no defense is mounted, the
-  damage occurs
+  damage occurs.
 </p>
 <p>
   If both players choose to attack damage occurs <b>simultaneously</b> potentially
-  leading to co mortality
+  leading to co mortality.
 </p>
 <br />
-<p><b>This combat system is dramatic, abrupt, and lethal</b></p>
+<p><b>This combat system is dramatic, abrupt, and lethal.</b></p>
+<p>
+  To decrease lethality, all attacks can be defended against without making a
+  player choose between defending and attacking
+</p>
 <p>
   Talents and Equipment may mitigate or amplify the intensity of combat
   depending on the setting and theme of the game.
@@ -287,9 +317,6 @@
   use the "HP States" such as "Wounded"
 </p>
 
-<!-- <div style="position:fixed;bottom:20px;right:20px;">
-  <RollerToggle />
-</div>
 {#if rollerVisible}
   <Roller />
 {/if}
@@ -298,7 +325,7 @@
   style="margin-bottom:3em;"
   on:click={() => (rollerVisible = !rollerVisible)}
   >Full Dice Roller
-</button> -->
+</button>
 <br />
 <br />
 

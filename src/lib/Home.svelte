@@ -290,7 +290,7 @@
 </p>
 <p><b>This combat system is dramatic, abrupt, and lethal.</b></p>
 <p>
-  To decrease lethality, all attacks can be defended against without making a
+  Should the game call for decreased lethality, the GM may decide that all attacks can be defended against without making a
   player choose between defending and attacking
 </p>
 <p>

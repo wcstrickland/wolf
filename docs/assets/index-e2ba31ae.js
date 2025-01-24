@@ -154,7 +154,7 @@ Choose a Distribution\r
   <b class="svelte-13n4gch">Agility + Dexterity</b>
   to <b class="svelte-13n4gch">Dodge</b> or <b class="svelte-13n4gch">Brawl + Stamina</b> to <b class="svelte-13n4gch">Soak/Avoid</b> damage.`,Al=h(),Bt=c("p"),Bt.textContent=`If the attack result is higher than the defense, or no defense is mounted, the\r
   damage occurs.`,Ml=h(),Ot=c("p"),Ot.innerHTML=`If both players choose to attack damage occurs <b class="svelte-13n4gch">simultaneously</b> potentially
-  leading to co mortality.`,El=h(),Vt=c("p"),Vt.innerHTML='<b class="svelte-13n4gch">This combat system is dramatic, abrupt, and lethal.</b>',Il=h(),Wt=c("p"),Wt.textContent=`To decrease lethality, all attacks can be defended against without making a\r
+  leading to co mortality.`,El=h(),Vt=c("p"),Vt.innerHTML='<b class="svelte-13n4gch">This combat system is dramatic, abrupt, and lethal.</b>',Il=h(),Wt=c("p"),Wt.textContent=`Should the game call for decreased lethality, the GM may decide that all attacks can be defended against without making a\r
   player choose between defending and attacking`,Ll=h(),zt=c("p"),zt.textContent=`Talents and Equipment may mitigate or amplify the intensity of combat\r
   depending on the setting and theme of the game.`,Pl=h(),Gt=c("p"),Gt.textContent=`If you feel HP is too specific for a cinematic style game feel free to just\r
   use the "HP States" such as "Wounded"`,ql=h(),ds=c("hr"),Hl=h(),Nt=c("p"),Nt.innerHTML=`Different types of damage are represented by different damage dice or

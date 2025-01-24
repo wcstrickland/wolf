@@ -267,20 +267,6 @@
 
 <h2>Combat</h2>
 <p>
-  Different types of damage are represented by different damage dice or
-  modifiers as <b>interpreted or decided by the GM.</b> plus the roll modifiers (DEX
-  + Melee)
-</p>
-  <h4>Examples / Suggested Values</h4>
-  <p>Punch: Flat Strength or Brawl Score</p>
-  <p>Small Weapons (Scissors, thrown Rock, Brick): <b>1d4 + mods</b></p>
-  <p>Medium Weapons (Knife, Sling Shot, Baseball Bat): <b>1d6 + mods</b></p>
-  <p>Large Weapons (Machete, Bow and Arrow, Crowbar): <b>1d8 + mods</b></p>
-  <p>
-    Lethal Weapons (Pistol : <b>1d10</b>, Rifle: <b>2d8</b>, Shotgun:
-    <b>4/5d4</b>, Grenade: <b>4d6</b>) + mods
-  </p>
-<p>
   When attacking: Roll the appropriate combination of Attribute and Skill for
   the type of attack.
 </p>
@@ -302,7 +288,6 @@
   If both players choose to attack damage occurs <b>simultaneously</b> potentially
   leading to co mortality.
 </p>
-<br />
 <p><b>This combat system is dramatic, abrupt, and lethal.</b></p>
 <p>
   To decrease lethality, all attacks can be defended against without making a
@@ -316,6 +301,22 @@
   If you feel HP is too specific for a cinematic style game feel free to just
   use the "HP States" such as "Wounded"
 </p>
+<hr>
+<p>
+  Different types of damage are represented by different damage dice or
+  modifiers as <b>interpreted or decided by the GM.</b> plus the roll modifiers (DEX
+  + Melee)
+</p>
+  <h4>Examples / Suggested Values</h4>
+  <p>Punch: Flat Strength or Brawl Score</p>
+  <p>Small Weapons (Scissors, thrown Rock, Brick): <b>1d4 + mods</b></p>
+  <p>Medium Weapons (Knife, Sling Shot, Baseball Bat): <b>1d6 + mods</b></p>
+  <p>Large Weapons (Machete, Bow and Arrow, Crowbar): <b>1d8 + mods</b></p>
+  <p>
+    Lethal Weapons (Pistol : <b>1d10</b>, Rifle: <b>2d8</b>, Shotgun:
+    <b>4/5d4</b>, Grenade: <b>4d6</b>) + mods
+  </p>
+<br />
 
 {#if rollerVisible}
   <Roller />
